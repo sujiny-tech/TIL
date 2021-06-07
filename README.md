@@ -3,8 +3,8 @@
 ## MFC (Microsoft Foundartion Class Libaray)
 + listbox 다루기
 + dialog 배경화면 및 button bmp 이미지 덧붙이기
-+ mutex 처리
-+ thread 처리
++ mutex 
++ thread 생성
 
 ## Golang
 + TCP/IP 
