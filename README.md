@@ -17,3 +17,4 @@
 ## ETC
 + 소프트웨어 방법론
 + flow chart 
++ UML(Unified Modeling Language)
