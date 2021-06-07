@@ -1,4 +1,4 @@
-# TIL : Today I Leadned
+# TIL : Today I Learned
 
 ## MFC (Microsoft Foundartion Class Libaray)
 + listbox 다루기
