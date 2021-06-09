@@ -7,7 +7,9 @@
 + thread 생성
 
 ## Golang
-+ TCP/IP 
++ [pointer](https://github.com/sujiny-tech/TIL/blob/main/golang/pointer.go)
++ [print](https://github.com/sujiny-tech/TIL/blob/main/golang/print_example.go) & [scanf](https://github.com/sujiny-tech/TIL/blob/main/golang/scanf_example.go)
++ [TCP/IP](https://github.com/sujiny-tech/TIL/tree/main/golang/TCPIP) 
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/golang/test)
 
 ## OS
