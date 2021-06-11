@@ -13,6 +13,11 @@
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/golang/test)
 
 ## OS
++ 컴퓨터의 구조와 성능향상
++ 프로세스와 스레드
++ CPU스케줄링
++ 프로세스 동기화
++ 교착 상태
 
 ## Network
 
