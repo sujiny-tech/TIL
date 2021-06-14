@@ -26,4 +26,4 @@
 + 소프트웨어 방법론
 + flow chart 
 + UML(Unified Modeling Language)
-+ JWT(JSON Web Token)
++ [JWT(JSON Web Token)](https://github.com/sujiny-tech/TIL/tree/main/ETC/JWT)
