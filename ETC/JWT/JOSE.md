@@ -15,7 +15,7 @@
 + 서버와 클라이언트 간 **암호화된 데이터**를 토큰화한 것   
 
 ### JWK(JSON Web Key)
-+ JWE에서 payload encryption에 사용된 key를 토큰화한 것 (key 자체 암호화 되어 있음)   
++ **JWE**에서 **payload encryption에 사용된 key**를 토큰화한 것 (key 자체 암호화 되어 있음)   
 
 ✨ [참고하기 좋은 사이트1 - jwt.io ](https://jwt.io/)
 ✨ [참고하기 좋은 블로그](https://ehdvudee.tistory.com/14)   
