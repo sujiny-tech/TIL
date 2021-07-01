@@ -22,6 +22,9 @@
 
 ## Network
 
+## Programming
++ [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/c_cpp_extern/c_cpp_extern.md)
+
 ## ETC
 + 소프트웨어 방법론
 + flow chart 
