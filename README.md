@@ -11,6 +11,9 @@
 + [print](https://github.com/sujiny-tech/TIL/blob/main/golang/print_example.go) & [scanf](https://github.com/sujiny-tech/TIL/blob/main/golang/scanf_example.go)
 + [TCP/IP](https://github.com/sujiny-tech/TIL/tree/main/golang/TCPIP) 
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/golang/test)
++ JSON Encoding/Decoding
++ JSON HTTP 서버통신
+
 
 ## OS
 + [개요](https://github.com/sujiny-tech/TIL/blob/main/OS/Intro.md)
@@ -33,3 +36,4 @@
 + [JWT(JSON Web Token)](https://github.com/sujiny-tech/TIL/tree/main/ETC/JWT)
 + [JWS(JSON Web Signature) - login example using ECDSA](https://github.com/sujiny-tech/TIL/blob/main/ETC/JWT/jwt_login_example_ES256.js)   
 + [Keccak256 vs SHA3-256]()
++ Python Locust 예제
