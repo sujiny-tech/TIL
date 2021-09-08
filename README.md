@@ -11,9 +11,9 @@
 + [print](https://github.com/sujiny-tech/TIL/blob/main/golang/print_example.go) & [scanf](https://github.com/sujiny-tech/TIL/blob/main/golang/scanf_example.go)
 + [TCP/IP](https://github.com/sujiny-tech/TIL/tree/main/golang/TCPIP) 
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/golang/test)
++ [Mutex](https://github.com/sujiny-tech/TIL/tree/main/golang/mutex)(Lock/Unlock/RLock/RUnlock)
 + JSON Encoding/Decoding
 + JSON HTTP 서버통신
-+ [Mutex](https://github.com/sujiny-tech/TIL/tree/main/golang/mutex)(Lock/Unlock/RLock/RUnlock)
 
 ## OS
 + [개요](https://github.com/sujiny-tech/TIL/blob/main/OS/Intro.md)
