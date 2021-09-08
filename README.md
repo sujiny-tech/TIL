@@ -13,7 +13,7 @@
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/golang/test)
 + JSON Encoding/Decoding
 + JSON HTTP 서버통신
-
++ Mutex (Lock/Unlock/RLock/RUnlock)
 
 ## OS
 + [개요](https://github.com/sujiny-tech/TIL/blob/main/OS/Intro.md)
