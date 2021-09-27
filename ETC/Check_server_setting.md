@@ -10,7 +10,7 @@
       + ```free -h``` : (human-readable) 사람이 읽기 쉬운 단위로 출력해줌
       + ```free -b/-k/-m/-g``` : 원하는 단위(bytes/KB/MB/GB)로 출력해줌
       + ```free -t``` : ram 메모리 총 용량과 swap 메모리의 합(total)을 확인할 수 있음
-+ 메모리 점유율 확인은 ```top```입력 시 확인 가능함   
++** 메모리 점유율 확인**은 ```top```입력 시 확인 가능함   
 
 
 
@@ -20,8 +20,8 @@
 
 ## linux OS 확인
 + 터미널에 ```cat /etc/redhat-release```를 입력하면,**OS 정보를 확인**할 수 있음
-+ 또다른 명령어를 통해 OS 정보 확인 가능함
++ **또다른 명령어**를 통해 OS 정보 확인 가능함
    +  ```cat /etc/*release*```
    +  ```cat /etc/issue```
-   +  OS bit 확인 = ```getconf LONG_BIT```   
+   +  OS **bit** 확인 = ```getconf LONG_BIT```   
 
