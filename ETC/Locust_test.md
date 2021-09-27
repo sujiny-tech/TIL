@@ -15,7 +15,7 @@
 
 + 테스트 결과를 그래프로 확인할 수 있고, 다운로드 가능하다.
    + http://localhost:8089 접속을 통해 확인 가능   
-   + 웹을 통해 Request per second/Response per second 확인 가능
+   + 웹을 통해 Request per second(RPS), Response times 확인 가능
 
 
 + 원하는 테스트 루틴대로 작성해서 순차적으로 함수를 call할 수 있다.
