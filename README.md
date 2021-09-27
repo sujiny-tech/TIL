@@ -1,4 +1,5 @@
 # TIL : Today I Learned
+> 오늘 내가 알게된 것, 이전에 알고 있었던 것 모두 간단하게 정리하고 기록하기 👩‍💻✨
 
 ## MFC (Microsoft Foundartion Class Libaray)
 + listbox 다루기
