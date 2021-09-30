@@ -39,4 +39,4 @@
 + [Keccak256 vs SHA3-256](https://github.com/sujiny-tech/TIL/blob/main/ETC/Keccak256_SHA3-256.md)
 + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/ETC/Locust_test.md)
 + [nohup, &(background)](https://github.com/sujiny-tech/TIL/blob/main/ETC/nohup%26.md)
-+ [linux 서버 환경 체크](https://github.com/sujiny-tech/TIL/blob/main/ETC/Check_server_setting.md)
++ [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/ETC/Check_server_setting.md)
