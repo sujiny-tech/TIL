@@ -25,3 +25,13 @@
    +  ```cat /etc/issue```
    +  OS **bit** 확인 = ```getconf LONG_BIT```   
 
+
+---------------------------------
+> ing ...
+> 
+# 서버 환경 세팅
+
+## linux 서버 port 체크
++ 
+## linux 서버 port 확인 및 열기
++ 
