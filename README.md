@@ -29,6 +29,11 @@
 ## Programming
 + [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/c_cpp_extern/c_cpp_extern.md)
 
+## Linux/CentOS
++ [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/ETC/Check_server_setting.md)
++ [linux 서버 성능 모니터링 - Nmon]()
+
+
 ## ETC
 + 소프트웨어 방법론
 + flow chart 
@@ -40,6 +45,4 @@
 + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/ETC/Locust_test.md)
 + [nohup, &(background)](https://github.com/sujiny-tech/TIL/blob/main/ETC/nohup%26.md)
 
-## Linux/CentOS
-+ [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/ETC/Check_server_setting.md)
-+ [linux 서버 성능 모니터링 - Nmon]()
+
