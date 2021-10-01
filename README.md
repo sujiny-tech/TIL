@@ -1,12 +1,6 @@
 # TIL : Today I Learned
 > 오늘 내가 알게된 것, 이전에 알고 있었던 것 모두 간단하게 정리하고 기록하기 👩‍💻✨
 
-## MFC (Microsoft Foundartion Class Libaray)
-+ listbox 다루기
-+ dialog 배경화면 및 button bmp 이미지 덧붙이기
-+ mutex 
-+ thread 생성
-
 ## Golang
 + [pointer](https://github.com/sujiny-tech/TIL/blob/main/golang/pointer.go)
 + [print](https://github.com/sujiny-tech/TIL/blob/main/golang/print_example.go) & [scanf](https://github.com/sujiny-tech/TIL/blob/main/golang/scanf_example.go)
@@ -15,6 +9,20 @@
 + [Mutex](https://github.com/sujiny-tech/TIL/tree/main/golang/mutex)(Lock/Unlock/RLock/RUnlock)
 + JSON Encoding/Decoding
 + JSON HTTP 서버통신
+
+## Programming
++ [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/c_cpp_extern/c_cpp_extern.md)
+
+## Linux/CentOS
++ [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/ETC/Check_server_setting.md)
++ [linux 서버 성능 모니터링 - Nmon]()
+
+
+## MFC (Microsoft Foundartion Class Libaray)
++ listbox 다루기
++ dialog 배경화면 및 button bmp 이미지 덧붙이기
++ mutex 
++ thread 생성
 
 ## OS
 + [개요](https://github.com/sujiny-tech/TIL/blob/main/OS/Intro.md)
@@ -25,14 +33,6 @@
 + 교착 상태
 
 ## Network
-
-## Programming
-+ [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/c_cpp_extern/c_cpp_extern.md)
-
-## Linux/CentOS
-+ [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/ETC/Check_server_setting.md)
-+ [linux 서버 성능 모니터링 - Nmon]()
-
 
 ## ETC
 + 소프트웨어 방법론
