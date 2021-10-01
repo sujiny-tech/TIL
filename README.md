@@ -15,7 +15,7 @@
 
 ## Linux/CentOS
 + [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Check_server_setting.md)
-+ [linux 서버 성능 모니터링 - Nmon]()
++ [linux 서버 성능 모니터링 - Nmon](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Nmon.md)
 
 
 ## MFC (Microsoft Foundartion Class Libaray)
