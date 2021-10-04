@@ -36,7 +36,8 @@
  
 + [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Check_server_setting.md)
 + [linux 서버 성능 모니터링 - Nmon](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Nmon.md)
-  
++ [nohup, &(background)](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/nohup&.md) 
+   
 </div>
 </details>
 
@@ -95,7 +96,6 @@
 + [JWS(JSON Web Signature) - login example using ECDSA](https://github.com/sujiny-tech/TIL/blob/main/ETC/JWT/jwt_login_example_ES256.js)   
 + [Keccak256 vs SHA3-256](https://github.com/sujiny-tech/TIL/blob/main/ETC/Keccak256_SHA3-256.md)
 + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/ETC/Locust_test.md)
-+ [nohup, &(background)](https://github.com/sujiny-tech/TIL/blob/main/ETC/nohup%26.md)
   
 </div>
 </details>
