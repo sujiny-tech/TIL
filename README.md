@@ -1,12 +1,11 @@
 # TIL : Today I Learned
 > 오늘 내가 알게된 것, 이전에 알고 있었던 것 모두 간단하게 정리하고 기록하기 👩‍💻✨
+  
+## Programming
 
-
-## Golang
 <details>
-<summary><b>Click</b></summary>   
+<summary><b>Golang</b></summary>   
 <div markdown="2">   
-   
    
 + [pointer](https://github.com/sujiny-tech/TIL/blob/main/golang/pointer.go)
 + [print](https://github.com/sujiny-tech/TIL/blob/main/golang/print_example.go) & [scanf](https://github.com/sujiny-tech/TIL/blob/main/golang/scanf_example.go)
@@ -18,17 +17,38 @@
 
 </div>
 </details>
-  
-## Programming
+
 <details>
-<summary><b>Click</b></summary>   
+<summary><b>C/C++</b></summary>   
 <div markdown="1">   
  
 + [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/c_cpp_extern/c_cpp_extern.md)
 
 </div>
 </details>
+
+<details>
+<summary><b>Python</b></summary>   
+<div markdown="1">  
+   
+ + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/ETC/Locust_test.md)
   
+</div>
+</details>
+
+<details>
+<summary><b>MFC (Microsoft Foundartion Class Libaray)</b></summary>   
+<div markdown="1">   
+   
++ listbox 다루기
++ dialog 배경화면 및 button bmp 이미지 덧붙이기
++ mutex 
++ thread 생성
+  
+</div>
+</details>
+
+
 ## Linux/CentOS
 <details>
 <summary><b>Click</b></summary>   
@@ -51,20 +71,6 @@
    
 </div>
 </details>
-
-## MFC (Microsoft Foundartion Class Libaray)
-<details>
-<summary><b>Click</b></summary>   
-<div markdown="1">   
-   
-+ listbox 다루기
-+ dialog 배경화면 및 button bmp 이미지 덧붙이기
-+ mutex 
-+ thread 생성
-  
-</div>
-</details>
-
 
 ## OS
 <details>
@@ -105,8 +111,7 @@
 + [JWT(JSON Web Token)](https://github.com/sujiny-tech/TIL/tree/main/ETC/JWT)
 + [JWS(JSON Web Signature) - login example using ECDSA](https://github.com/sujiny-tech/TIL/blob/main/ETC/JWT/jwt_login_example_ES256.js)   
 + [Keccak256 vs SHA3-256](https://github.com/sujiny-tech/TIL/blob/main/ETC/Keccak256_SHA3-256.md)
-+ [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/ETC/Locust_test.md)
-  
+
 </div>
 </details>
 
