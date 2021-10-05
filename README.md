@@ -7,11 +7,12 @@
 <summary><b>Golang</b></summary>   
 <div markdown="2">   
    
-+ [pointer](https://github.com/sujiny-tech/TIL/blob/main/golang/pointer.go)
-+ [print](https://github.com/sujiny-tech/TIL/blob/main/golang/print_example.go) & [scanf](https://github.com/sujiny-tech/TIL/blob/main/golang/scanf_example.go)
-+ [TCP/IP](https://github.com/sujiny-tech/TIL/tree/main/golang/TCPIP) 
-+ [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/golang/test)
-+ [Mutex](https://github.com/sujiny-tech/TIL/tree/main/golang/mutex)(Lock/Unlock/RLock/RUnlock)
++ [pointer](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/pointer.go)
++ [print](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/print_example.go) 
++ [scanf](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/scanf_example.go)
++ [TCP/IP](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/TCPIP) 
++ [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/test)
++ [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)
 + JSON Encoding/Decoding
 + JSON HTTP 서버통신
 
@@ -22,7 +23,7 @@
 <summary><b>C/C++</b></summary>   
 <div markdown="1">   
  
-+ [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/c_cpp_extern/c_cpp_extern.md)
++ [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C%2B%2B/c_cpp_extern.md)
 
 </div>
 </details>
@@ -31,7 +32,7 @@
 <summary><b>Python</b></summary>   
 <div markdown="1">  
    
- + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/ETC/Locust_test.md)
+ + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/programming/Python/Locust_test.md)
   
 </div>
 </details>
