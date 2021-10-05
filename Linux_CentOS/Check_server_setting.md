@@ -26,12 +26,15 @@
    +  OS **bit** 확인 = ```getconf LONG_BIT```   
 
 
----------------------------------
-> ing ...
-> 
-# 서버 환경 세팅
-
 ## linux 서버 port 체크
-+ 
-## linux 서버 port 확인 및 열기
-+ 
++ `netstat -nap` : 열려있는 모든 포트 확인하는 명령어
++ `netstat -nap | grep LISTEN` : Listen 중인 포트만 확인하는 명령어
++ `netstat -nap | grep <port_num>` : <port_num>에 해당하는 특정 포트의 상태만 확인하는 명령어
+
+## linux 서버 port 열기
++ `sudo iptables -I INPUT 1 -p tcp --dport <port_num> -j ACCEPT` : <port_num>에 해당하는 포트를 open하는 명령어
+  
+
+
+# 참고
++ [참고하면 좋을 다른사람 블로그✨ -Centos7 시스템 자원/네트워크 관련 정리](https://estenpark.tistory.com/372)
