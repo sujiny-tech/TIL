@@ -39,6 +39,15 @@
 </details>
 
 <details>
+<summary><b>Java</b></summary>   
+<div markdown="2">   
+   
++ JNA(Java Nativie Access)
+
+</div>
+</details>
+
+<details>
 <summary><b>MFC (Microsoft Foundartion Class Libaray)</b></summary>   
 <div markdown="1">   
    
