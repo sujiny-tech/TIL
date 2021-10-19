@@ -42,7 +42,7 @@
 <summary><b>Java</b></summary>   
 <div markdown="2">   
    
-+ JNA(Java Nativie Access)
++ JNI(Java Native Interface) & JNA(Java Nativie Access)
 
 </div>
 </details>
