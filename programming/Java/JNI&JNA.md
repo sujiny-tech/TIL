@@ -25,6 +25,10 @@
 + JNI와는 달리 만들어져있는 dll을 수정하지않고, 최사
 
 
-⭐ 참고
++ **TODO** : JNI 실행 후, JNA 예제 작성 🖥
+
+   
+   
+# 참고 ⭐
 + [JNI unsigned char 변환 관련 stackoverflow](https://stackoverflow.com/questions/25259095/jni-android-jbytearray-to-unsigned-char-and-viceversa)
 + 
