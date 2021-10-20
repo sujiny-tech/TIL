@@ -18,7 +18,13 @@
 
 + **TODO** : 생성된 * .h를 이용해 * .cpp 파일 작성 🖥
 
+
 # JNA(Java Native Access)
 > 첨부되어 있는 jna.jar import →  jna.jar 패키지를 이용해 다양한 dll 로드하여 사용 가능
 
 + JNI와는 달리 만들어져있는 dll을 수정하지않고, 최사
+
+
+⭐ 참고
++ [JNI unsigned char 변환 관련 stackoverflow](https://stackoverflow.com/questions/25259095/jni-android-jbytearray-to-unsigned-char-and-viceversa)
++ 
