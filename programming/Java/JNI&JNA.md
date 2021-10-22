@@ -16,22 +16,25 @@
          + `Error: Could not find class file for '패키지명.클래스명'.`   
 
 
-            > stackoverflow의 글을 보고 해결 완료 : [참고 링크 ✨](https://stackoverflow.com/questions/19137201/javah-tool-error-could-not-find-class-file-for-hellojni)   
+            > stackoverflow의 글을 보고 해결 완료 : [참고 링크 ✨](https://stackoverflow.com/questions/19137201/javah-tool-error-could-not-find-class-file-for-hellojni)    
+
+
+   + **STEP4** : 만들어진 * .h 파일을 C/C++ dll 프로젝트에 추가하여 해당 함수 구현 및 컴파일 (dll 생성)
+   + **STEP5** : java에서 System.LoadLibrary를 통해 dll 불러오고 해당 함수 사용
 
 - - - - - - - - - - - - - - - - 
 
 # JNA(Java Native Access)
-> 첨부되어 있는 jna.jar import →  jna.jar 패키지를 이용해 다양한 dll 로드하여 사용 가능
 
-+ 커뮤니티에서 제작한 라이브러리로, 깃허브에서 다운로드 받고 프로젝트에 포함시켜야 함   
++ JNI에서 진행했던 것처럼 native code로 함수 구현, header 파일 생성
++ 커뮤니티에서 제작한 라이브러리로, **깃허브에서 다운로드 받고 프로젝트에 포함**시켜야 함   
 
-  > JNI와는 달리 래핑 라이브러리를 만들지 않아도 간편하게 기존 라이브러리를 자바에서 사용 가능
-  + **STEP1** : 깃허브에서 해당 라이브러리 다운로드 → [github 링크 ✨](https://github.com/java-native-access/jna)   
+   > JNI와는 달리 래핑 라이브러리를 만들지 않아도 간편하게 기존 라이브러리를 자바에서 사용 가능함 
+   + **STEP1** : 깃허브에서 해당 라이브러리 다운로드 → [github 링크 ✨](https://github.com/java-native-access/jna)   
+   + **STEP2** : 다운받은 jna.jar를 빌드에 포함시키고, 해당 dll에 있는 함수 사용
 
-
-
-
-+ **TODO** : JNI 실행 후, JNA 예제 작성 🖥
+      + **C/C++ 타입과 java 타입 변환**
+  
 
    
    
