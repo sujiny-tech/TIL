@@ -31,7 +31,13 @@
 
    > JNI와는 달리 래핑 라이브러리를 만들지 않아도 간편하게 기존 라이브러리를 자바에서 사용 가능함 
    + **STEP1** : 깃허브에서 해당 라이브러리 다운로드 → [github 링크 ✨](https://github.com/java-native-access/jna)   
-   + **STEP2** : 다운받은 jna.jar를 빌드에 포함시키고, 해당 dll에 있는 함수 사용
+   + **STEP2** : 다운받은 jna.jar를 빌드에 포함시키고, 해당 dll에 있는 함수 사용   
+
+
+      + `UnsatisfiedLinkError : Error looking up function ...` 에러   
+
+
+         > stackoverflow의 글을 보고 해결 완료 : [참고 링크✨](https://stackoverflow.com/questions/10292338/jna-cannot-find-function)
 
       + **C/C++ 타입과 java 타입 변환**
   
