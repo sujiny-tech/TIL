@@ -47,5 +47,5 @@
 # 참고 ⭐
 + [JNI unsigned char 변환 관련 stackoverflow](https://stackoverflow.com/questions/25259095/jni-android-jbytearray-to-unsigned-char-and-viceversa)
 + [JNI Tutorial ✨](https://sungcheol-kim.gitbook.io/jni-tutorial/chapter13)
-+ [JNI 구현시 발생한 에러 - java.lang.UnsatisfiedLinkError 中 [BLjava/lang/String;]()
++ [JNI 구현시 발생한 에러 - java.lang.UnsatisfiedLinkError 中 B)Ljava/lang/String;]()
 + [JNA 구현시 발생한 에러 - 올바른 win32 응용 프로그램이 아닙니다.]()
