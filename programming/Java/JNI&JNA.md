@@ -20,7 +20,11 @@
 
 
    + **STEP4** : 만들어진 * .h 파일을 C/C++ dll 프로젝트에 추가하여 해당 함수 구현 및 컴파일 (dll 생성)
-   + **STEP5** : java에서 System.LoadLibrary를 통해 dll 불러오고 해당 함수 사용
+   + **STEP5** : java에서 System.LoadLibrary를 통해 dll 불러오고 해당 함수 사용   
+
+      + 실행 시 발생한 에러   
+
+         + `Error : java.lang.UnsatisfiedLinkError 中 B)Ljava/lang/String;`
 
 - - - - - - - - - - - - - - - - 
 
@@ -42,10 +46,13 @@
       + **C/C++ 타입과 java 타입 변환**
   
 
+      + `java.lang.Error : Invalid memory access ...` 에러   
+
+         > [참고할 만한 stackoverflow 링크 ✨](https://stackoverflow.com/questions/45383453/java-native-access-code-error-invalid-memory-access)   
+
+
    
    
 # 참고 ⭐
 + [JNI unsigned char 변환 관련 stackoverflow](https://stackoverflow.com/questions/25259095/jni-android-jbytearray-to-unsigned-char-and-viceversa)
 + [JNI Tutorial ✨](https://sungcheol-kim.gitbook.io/jni-tutorial/chapter13)
-+ [JNI 구현시 발생한 에러 - java.lang.UnsatisfiedLinkError 中 B)Ljava/lang/String;]()
-+ [JNA 구현시 발생한 에러 - 올바른 win32 응용 프로그램이 아닙니다.]()
