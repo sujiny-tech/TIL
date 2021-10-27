@@ -56,3 +56,4 @@
 # 참고 ⭐
 + [JNI unsigned char 변환 관련 stackoverflow](https://stackoverflow.com/questions/25259095/jni-android-jbytearray-to-unsigned-char-and-viceversa)
 + [JNI Tutorial ✨](https://sungcheol-kim.gitbook.io/jni-tutorial/chapter13)
++ [JNA PointerByReference ✨](https://stackoverflow.com/questions/15337395/pointerbyreference-not-returning-value)
