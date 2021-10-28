@@ -50,6 +50,9 @@
 
          > [참고할 만한 stackoverflow 링크 ✨](https://stackoverflow.com/questions/45383453/java-native-access-code-error-invalid-memory-access)   
 
+      + `java.lang.IndexOutOfBoundsException : Bounds exceeds available space : size=8, offset=...` 에러   
+
+         
 
    
    
