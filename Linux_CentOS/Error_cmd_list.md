@@ -9,12 +9,14 @@
 > 사용했던 것들 생각날때마다 기록하자 📝
 
 + linux 사용자 변경 (CentOS)
-   + `su - [user_name]` 명령어 입력
+   + cli 환경에서 `su - [user_name]` 명령어 입력
 
 + 비밀번호 변경 
    1. cli 환경에서 `passwd` 입력
       + 현재 비밀번호 입력 후, 변경할 비밀번호 입력하면 끝 ❗
 
++ 현재 디렉토리 정보 출력(print working directory)
+   + cli 환경에서 `pwd` 입력
 
 ing...
 
