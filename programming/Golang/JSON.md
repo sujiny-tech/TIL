@@ -7,8 +7,7 @@
 
 ### json.Marshal/json.Unmarshal
 +  bytes, slice, string에는 Marshal/Unmarshal 함수 적합   
-
-### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON_example.go)   
+ 
 
 + **✨ 주의할 점 ✨**
 
@@ -19,6 +18,9 @@
 
 
       > 따라서, 언어마다 추가되는 부분이 있는지 체크 필요 ❗   
+
+
+### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON_example.go)    
 
 
 # 참고
