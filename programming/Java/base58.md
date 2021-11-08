@@ -5,7 +5,6 @@
    + base64
       + 64진수 체계의 인코딩 기법
       + 입력된 값을 6bit씩 구분하여, 지정된 table의 charater로 치환   
-      + 
    + **base58**
       + 입력된 값을 big number로 변경하여 58로 나눠, 지정된 table의 character로 치환
 
