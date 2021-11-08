@@ -18,5 +18,10 @@
 + 현재 디렉토리 정보 출력(print working directory)
    + cli 환경에서 `pwd` 입력
 
++ 파일 생성, 날짜 변경
+   + `touch <filename>` : 파일 생성
+   + `touch -c <filenam>` : 파일에 관한 시간정보를 현재시간으로 변경
+   + `touch -t YYYYMMDDhhmm <filename>` : 시간정보를 YYYYMMDDhhmm(년/월/일/시/분)으로 변경
+
 ing...
 
