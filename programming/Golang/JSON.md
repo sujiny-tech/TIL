@@ -9,7 +9,7 @@
 +  bytes, slice, string에는 Marshal/Unmarshal 함수 적합   
  
 
-+ **✨ 주의할 점 ✨**
+## ✨ 주의할 점 ✨
 
    + JSON 형식이 한글자라도 다르면, 에러가 나기 때문에 형식에 맞게 잘 구현해야 함.   
 
