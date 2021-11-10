@@ -13,7 +13,9 @@
    + `cd /usr/local/go/bin` 폴더로 이동 후, `go version` 입력해서 go version go1.15.5 linux/amd64가 출력되면 성공
 
 + 환경변수 설정
-   + `vi ~/.bash_profile` 입력 후, 아래 경로를 지정함 (go 실행을 어느곳에서든 자유롭게 하기 위함)
+   + `vi ~/.bash_profile` 입력 후, 원하는 path를 지정 (vi 명령어를 이용해서 입력하고 저장)
+      > go 실행을 어느곳에서든 자유롭게 하기 위해서 설정한다. 
+
       + export GOPATH=$HOME/go   
 
       + export PATH=$PATH:$GOPATH/bin   
