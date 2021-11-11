@@ -1,5 +1,5 @@
 # JSON Enconding/Decoding
-> 몇개월 전, 데이터 전달 시 사용해봤던 JSON 정리
+> 몇개월 전부터 계속 개발할 때 사용 중인 JSON 정리📝
 
 ## JSON function
 ### json.Encoder/json.Decoder
