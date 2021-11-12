@@ -14,7 +14,7 @@
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/test.md)
 + [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)
 + [time](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/time_example.go)
-+ [JSON Encoding/Decoding](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON.md)
++ [JSON Encoding/Decoding](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON.md)
 + HTTP 서버통신
 
 </div>
