@@ -27,7 +27,12 @@
 
    + `go test -run` : 해당 디렉토리에 존재하는 _ test.go 파일 테스트 실행     
 
-   + `go test -benchmem -run=^$ -bench ^"(BenchmarkSum)"$` : 함수에 관해 할당된 메모리와 loop count, 1회 연산당 실행시간(ns/op)을 확인 가능   
-      > loop count는 벤치마킹한 해당 함수를 반복한 전체 횟수, 할당된 메모리에서는 Bytes/op, Allocs/op를 확인 가능 ❗
+   + `go test -benchmem -run=^$ -bench ^"(BenchmarkSum)"$` : 함수에 관해 할당된 메모리와 loop count, 1회 연산당 실행시간(ns/op)을 확인 가능    
+
+      + loop count는 벤치마킹한 해당 함수를 반복한 전체 횟수를 의미   
+
+      + 할당된 메모리는 Bytes/op, Allocs/op로 1회 함수 연산 당 할당된 바이트 수, 1회 함수 연산 당 할당된 메모리를 의미    
+
+      + ns/op와 loop count를 확인할 수 있으므로, TPS(Transaction Per Seconds)도 도출 가능 ❗
 
    + [이외의 옵션 존재 📄](https://pkg.go.dev/cmd/go/internal/test)
