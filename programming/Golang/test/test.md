@@ -2,11 +2,9 @@
 > go test 패키지를 통해 테스트 함수 작성 및 실행 가능, 또한 각 함수의 성능을 측정하는 벤치마킹까지 가능 ✨
 
 
-### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/test)
-
 +  "_ test.go" 형식의 이름으로 테스트 함수 작성해야 됨   
 
-##  [sum_test.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/sum_test.go) **코드 분석**    
+##  👉간단한 샘플 코드 : [sum_test.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/sum_test.go) **분석**    
 
    + 테스트 함수는 테스트하려고 하는 함수 앞에 Test를 꼭 붙여줘야 됨 (ex. TestSum, TestMul ...)    
 
@@ -15,7 +13,7 @@
    + Test 함수의 파라미터에 항상 * testing.T 타입의 매개변수를 적어줌
 
 
-## [mul_test.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/mul_test.go) **코드 분석**
+## 👉간단한 샘플 코드 : [mul_test.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/mul_test.go) **분석**
 
    + benchmark를 통해 원하는 함수의 성능을 측정할 수 있음 ❗❗   
 
