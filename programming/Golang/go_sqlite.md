@@ -1,5 +1,6 @@
-# go sqlite 사용
+# go sqlite3 사용
 
++ 
 + TODO...
 
 
