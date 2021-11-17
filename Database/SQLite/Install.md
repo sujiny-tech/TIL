@@ -24,7 +24,7 @@
 
 ## DB Browser for SQLite 설치  
 
-+ **...ing**   
++ **...[TODO] install SQLite Browser...**   
 
 
 
