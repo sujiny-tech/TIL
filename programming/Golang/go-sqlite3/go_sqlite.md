@@ -3,7 +3,8 @@
 + 
 + TODO...
 
-
+## 👉 간단한 예제 코드 : [SQLite_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/go-sqlite3/SQLite_example.go) 분석
+> 아래 참고 중 'go sqlite example' 파일을 기반으로 변형해봄
 
 ## 관련해서 발생한 에러들 🖥
 + `UNIQUE constraint failed : User.Id`
