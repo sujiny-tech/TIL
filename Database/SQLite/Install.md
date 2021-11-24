@@ -24,6 +24,12 @@
 
 ## DB Browser for SQLite 설치  
 
++ 해당 os에 맞춰서 다운로드 후, 설치 진행하였음   
+
+   > 아래 참고 5번째 링크에서 'A02 실습 환경 갖추기'를 기반으로 진행하였음 
+
+   > <img src="https://user-images.githubusercontent.com/72974863/143190188-bfaff74b-7dce-4221-ada1-40d21cc4e448.png" width="50%" height="50%">   
+
 + **...[TODO] install SQLite Browser...**   
 
 
@@ -34,3 +40,5 @@
 + [SQLite 인메모리 데이터베이스](https://runebook.dev/ko/docs/sqlite/inmemorydb)
 + [SQLite tutorial](https://www.sqlitetutorial.net/)
 + [DB Browser for SQLite 다운로드](https://sqlitebrowser.org/)
++ [SQLite3로 가볍게 배우는 데이터베이스](https://wikidocs.net/12453)   
+
