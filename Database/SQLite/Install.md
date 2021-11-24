@@ -30,6 +30,11 @@
 
    > <img src="https://user-images.githubusercontent.com/72974863/143190188-bfaff74b-7dce-4221-ada1-40d21cc4e448.png" width="50%" height="50%">   
 
++ 설치 후, DB Browser for SQLite 실행 화면   
+
+   > <img src="https://user-images.githubusercontent.com/72974863/143190712-b1163c41-659c-4d4d-a2b5-edfd8244071b.png" width="50%" height="50%">     
+
+
 + **...[TODO] install SQLite Browser...**   
 
 
@@ -40,5 +45,5 @@
 + [SQLite 인메모리 데이터베이스](https://runebook.dev/ko/docs/sqlite/inmemorydb)
 + [SQLite tutorial](https://www.sqlitetutorial.net/)
 + [DB Browser for SQLite 다운로드](https://sqlitebrowser.org/)
-+ [SQLite3로 가볍게 배우는 데이터베이스](https://wikidocs.net/12453)   
++ [SQLite3로 가볍게 배우는 데이터베이스⭐](https://wikidocs.net/12453)   
 
