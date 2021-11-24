@@ -34,6 +34,11 @@
 
    > <img src="https://user-images.githubusercontent.com/72974863/143190712-b1163c41-659c-4d4d-a2b5-edfd8244071b.png" width="50%" height="50%">     
 
++ 데이터베이스를 생성할 수 있으며, 테이블 내의 필드를 직접 추가하고 삭제할 수 있음   
+
+   + 필드를 추가하면서 각 필드의 타입을 지정해주는데, sqlite는 boolean 타입이 존재하지 않음 ❗❗
+   + 따라서, integer값으로 지정해서 수행하였음
+
 
 + **...[TODO] install SQLite Browser...**   
 
