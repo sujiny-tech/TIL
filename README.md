@@ -94,6 +94,8 @@
 <div markdown="1">   
 
 + [SQLite/SQLite Browser 설치](https://github.com/sujiny-tech/TIL/blob/main/Database/SQLite/Install.md)
++ [데이터베이스/테이블 생성](https://github.com/sujiny-tech/TIL/blob/main/Database/SQLite/Database_Table.md)  
+  
    
 </div>
 </details>
