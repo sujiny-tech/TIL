@@ -1,6 +1,6 @@
 # 데이터베이스/테이블 생성
 
-### 데이터베이스 생성
+### 테이블 생성
 > DB Browser for SQLite를 통해 데이터베이스 생성/삭제 가능 
 
 
@@ -10,9 +10,17 @@
       + **NN**(Not Null): null 값 허용 하지 않는다는 의미
       + **PK**(Primary Key): 기본 키로 설정한다는 의미
       + **AI**(Autoincrement): 자동으로 증가한다는 의미
+      + **U**(Unique): 유일한(중복되지 않은) 데이터라는 의미
 
 + 추가적으로 sqlite는 **boolean 타입이 존재하지 않음** ❗❗
    > 따라서 나는 boolean 타입 대신 integer 타입인 0과 1으로 지정해서 수행하였음
+
+### 데이터베이스 생성
++ 만들어낸 .sql 파일을 DB Browser fo SQLite을 통해 데이터베이스 생성 가능   
+
++ 왼쪽 "파일" 탭에서 "가져오기" 중에서 SQL 파일로부터 데이터베이스 가져오기 클릭
+   > <img src="https://user-images.githubusercontent.com/72974863/143370488-75cd090b-4127-4cea-b43a-4ebd767760ae.png" width="90%" hegith="90%">   
+
 
 
 
