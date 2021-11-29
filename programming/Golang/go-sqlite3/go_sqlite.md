@@ -4,8 +4,14 @@
 ## 👉 간단한 예제 코드 : [SQLite_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/go-sqlite3/SQLite_example.go) 분석
 > 아래 참고 중 'go sqlite example' 파일을 기반으로 변형해봄
 
-+ 
-+ TODO...
++ 예제코드는 sqlite db 파일을 생성하고, 열고, 테이블을 생성한 다음, 데이터를 삽입하고, 출력하는 루틴임   
+
++ 예제코드에서 사용된 함수 정리 🖥
+   + `os.Create("원하는 파일 이름.db")` : 원하는 파일이름으로 db를 생성함
+   + `sql.Open("sqlite3", "./원하는 파일 이름.db")` : 열고 싶은 파일의 경로를 파라미터에 입력하여, 해당 파일 열음
+   + `createTable` 함수 : 입력받은 db에 테이블을 생성하는 함수
+   + `insertUser` 함수 : db, index, name, password(생성한 테이블에 맞는 데이터값)을 입력받아 삽입하는 함수
+   + `displayUser` 함수 : 입력받은 db의 User 테이블에 있는 데이터를 출력해주는 함수
 
 ## 관련해서 발생한 에러들 🖥
 + `UNIQUE constraint failed : User.Id`
