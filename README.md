@@ -16,7 +16,8 @@
 + [time](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/time_example.go)
 + [JSON Encoding/Decoding](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON.md)
 + [go-sqlite3](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/go-sqlite3)
-+ HTTP 서버통신
++ net/http
++ [fasthttp](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/fasthttp)
 
 </div>
 </details>
