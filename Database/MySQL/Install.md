@@ -34,3 +34,6 @@
 
 + 나는 위에서 설치한 Windows(local)와 CentOS 7서버의 MySQL을 연동해서 아래와 같이 연결된 것을 확인할 수 있음
    > <img src="https://user-images.githubusercontent.com/72974863/136013855-cb63fa12-76bd-4609-97dd-0e09bf8601f6.png" width="70%" hegiht="70%">
+
+### 참고 ✨
++ [centos7에서 설치시 안될 경우, 다른 방법으로 설치 --> 다른 사람의 블로그 참고 ❗❗](https://jjeongil.tistory.com/1278)
