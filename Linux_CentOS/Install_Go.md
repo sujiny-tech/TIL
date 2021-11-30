@@ -8,7 +8,7 @@
   + [go 다운로드 사이트](https://golang.org/dl/)에서 최신버전과 이전버전 다운로드 가능
 
 + 다운로드 파일 압축풀기
-   + `sudo tar -C /usr/loca -xzf go1.15.5.linux-amd64.tar.gz`   
+   + `sudo tar -C /usr/local -xzf go1.15.5.linux-amd64.tar.gz`   
 
    + `cd /usr/local/go/bin` 폴더로 이동 후, `go version` 입력해서 go version go1.15.5 linux/amd64가 출력되면 성공
 
