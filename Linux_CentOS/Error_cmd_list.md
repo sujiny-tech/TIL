@@ -4,6 +4,15 @@
 + -bash : syntax error near unexpected token `('
    + 중간에 괄호부분이 에러 원인인데, 괄호부분에 대해 쌍따옴표로 감싸주면 에러 해결 ❗  
 
++ 서버 내 테스트시 발생했던 에러 : **too many open files!!!**
+
+   + 서버 환경 설정해야 됨 (openfiles 값 설정필요) 
+   + ulimit 명령어의 -n 옵션을 통해 설정 가능
+      + `ulimit -n 40960`
+   + /ext/security/limits.conf 파일에 추가/수정을 통해 설정 가능
+      + `<계정명> soft nofile 40960` 
+      + `<계정명> hard nofile 40960`  
+   + [다른 사람의 블로그 참고👍](https://knoow.tistory.com/220)   
 
 # 명령어 정리
 > 사용했던 것들 생각날때마다 기록하자 📝
@@ -26,16 +35,6 @@
 + 사용자 추가
    + `sudo useradd -m [user_name]` : 사용자 추가    
    + `sudo usermod -a -G sudo [user_name]` : 해당 사용자가 sudo 명령어 사용할 수 있도록 변경   
-
-+ 서버 내 테스트시 발생했던 에러 : **too many open files!!!**
-
-   + 서버 환경 설정해야 됨 (openfiles 값 설정필요) 
-   + ulimit 명령어의 -n 옵션을 통해 설정 가능
-      + `ulimit -n 40960`
-   + /ext/security/limits.conf 파일에 추가/수정을 통해 설정 가능
-      + `<계정명> soft nofile 40960` 
-      + `<계정명> hard nofile 40960`  
-   + [다른 사람의 블로그 참고👍](https://knoow.tistory.com/220)   
 
 
 ing...
