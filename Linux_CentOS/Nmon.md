@@ -10,6 +10,10 @@
 
 ## Nmon 설치
 + Centos에서 설치 : `yum install nmon`
+   + 설치가 안되는 경우, EPEL(Extra Packages for Enterpriese Linux) repository를 설치한 다음에 nmon 패키지 설치 명령어를 입력하면 됨 ❗❗
+      + `yum install epel-release` : epel repository 설치 명령어   
+
+
 + 사용방법
 
    + 실시간 모니터링 : `nmon` 명령어 입력
