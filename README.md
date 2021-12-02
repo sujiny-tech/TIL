@@ -86,6 +86,7 @@
 
 + [MySQL 설치 및 Workbench 연동](https://github.com/sujiny-tech/TIL/blob/main/Database/MySQL/Install.md)
 + [MySQL 사용자 계정 추가/권한부여](https://github.com/sujiny-tech/TIL/blob/main/Database/MySQL/User.md)
++ [Error 리스트](https://github.com/sujiny-tech/TIL/blob/main/Database/MySQL/Errorlist.md)
    
 </div>
 </details>
