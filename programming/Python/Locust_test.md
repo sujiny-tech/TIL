@@ -28,6 +28,11 @@
    + 이전 버전과는 달리 없어진 함수나 이름이 변경된 함수가 있어서 확인 필수 ❗❗❗
    + 원하는 테스트 루틴대로 작성하기 위해 많은 stackoverflow를 참고하였음
 
+## 발생했던 에러들
++ locust response의 status_code값이 0이 발생되는 경우,   
+   + 과도한 요청을 서버에서 받쳐주지 못해 생기는 에러, 시간초과나 연결오류가 원인
+   + [참고한 stackoverflow✨](https://stackoverflow.com/questions/17317162/locust-got-0-response-status-code-and-none-content)
+   
 
 ### 참고 ✨
 + [Locust Document](https://docs.locust.io/en/stable/)
