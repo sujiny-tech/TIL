@@ -36,6 +36,11 @@
    + `sudo useradd -m [user_name]` : 사용자 추가    
    + `sudo usermod -a -G sudo [user_name]` : 해당 사용자가 sudo 명령어 사용할 수 있도록 변경   
 
++ 서버 재부팅
+   + `reboot` : 로그를 남기고 재부팅
+
++ 시스템 재부팅
+   + `shutdown -r now` : 지금 시스템 재부팅
 
 ing...
 
