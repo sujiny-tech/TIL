@@ -33,7 +33,9 @@
   
    + 과도한 요청을 서버에서 받쳐주지 못해 생기는 에러, 시간초과나 연결오류가 원인
    + [참고한 stackoverflow✨](https://stackoverflow.com/questions/17317162/locust-got-0-response-status-code-and-none-content)
-   
+   + 따라서, 요청 수를 줄이면 해당 에러가 발생하지 않음
+
+
 
 ### 참고 ✨
 + [Locust Document](https://docs.locust.io/en/stable/)
