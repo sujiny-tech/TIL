@@ -35,7 +35,7 @@
    + 따라서, 요청 수를 줄이면 해당 에러가 발생하지 않음
    + [참고한 stackoverflow✨](https://stackoverflow.com/questions/17317162/locust-got-0-response-status-code-and-none-content)
 
-
+   + **추가적으로** IDC 서버내에서 로드 테스트를 진행했을 때, 중간중간 해당 에러가 발생했었음. **그러나** 내부 PC를 통해 진행했을 때, 해당 에러가 발생하지 않았음 ❗❗❗❗
 
 
 ### 참고 ✨
