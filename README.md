@@ -70,6 +70,7 @@
 <div markdown="1">   
  
 + [linux 서버 환경 체크 / 세팅](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Check_server_setting.md)
++ [서버 ulimit 설정](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Change_Setting.md)
 + [linux 서버 성능 모니터링 - Nmon](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Nmon.md)
 + [nohup, &(background)](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/nohup&.md)    
 + [Error & Cmd 리스트](https://github.com/sujiny-tech/TIL/blob/main/Linux_CentOS/Error_cmd_list.md)   
