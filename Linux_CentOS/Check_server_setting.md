@@ -39,5 +39,13 @@
 + `ifconfig` : 네트워크 인터페이스 확인
 + `ethtool <net_interface_name>` : ethtool을 통해 원하는 인터페이스 정보 조회   
 
+## 날짜/시간 확인
++ `date ` : 서버의 시간 출력
++ `timedatectl` : 정보확인(local time, universal time, Timezone ...etc)
++ 서버 시간 변경
+   + `ls /usr/share/zoneinfo/Asia` : Seoul의 timezone 정보에 해당하는 파일 찾기
+   + `mv /etc/localtime /etc/localtime_org` : 기존 파일백업한 다음, 해당하는 심볼릭 링크 만들기
+   + `ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime` 
+
 # 참고
 + [참고하면 좋을 다른사람 블로그✨ -Centos7 시스템 자원/네트워크 관련 정리](https://estenpark.tistory.com/372)
