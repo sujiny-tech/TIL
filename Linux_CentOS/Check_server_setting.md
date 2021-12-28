@@ -40,7 +40,7 @@
 + `ethtool <net_interface_name>` : ethtool을 통해 원하는 인터페이스 정보 조회   
 
 ## 날짜/시간 확인
-+ `date ` : 서버의 시간 출력
++ `date` : 서버의 시간 출력
 + `timedatectl` : 정보확인(local time, universal time, Timezone ...etc)
 + 서버 시간 변경
    + `ls /usr/share/zoneinfo/Asia` : Seoul의 timezone 정보에 해당하는 파일 찾기
