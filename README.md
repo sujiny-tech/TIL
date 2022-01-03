@@ -37,7 +37,7 @@
 <summary><b>Python</b></summary>   
 <div markdown="1">  
    
- + [Python Locust 간략 정리](https://github.com/sujiny-tech/TIL/blob/main/programming/Python/Locust_test.md)
+ + [Locust load test tool](https://github.com/sujiny-tech/TIL/blob/main/programming/Python/Locust/Locust_test.md)
   
 </div>
 </details>
