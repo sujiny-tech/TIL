@@ -8,12 +8,16 @@
    + output : db, 에러발생시 에러코드(없으면 nil)   
 
 
-+ `func (*bolt.DB).Update(fn func(*bolt.Tx) error) error`
-+ `func (*bolt.DB).Update(fn func(*bolt.Tx) error) error`
++ `func (*bolt.DB).Update(fn func(*bolt.Tx) error) error` : transaction을 read-write하기 위해 사용하는 함수   
+
++ `func (*bolt.DB).View(fn func(*bolt.Tx) error) error` : transaction을 read 하기 위해(read-only) 사용하는 함수
 + db.Batch()
 + db.Begin()   
 
-+ Bucket.get()
++ `func (*bolt.Bucket).Get(key []byte) []byte` : 버킷의 key 값을 검색하는 함수
+   + input  : 검색하고 싶은 버킷의 key   
+
+   + output : 입력받은 키에 대해 해당하는 value를 바이트 슬라이스로 반환 (없으면 nil)
 + 
 + 
 + ing...
