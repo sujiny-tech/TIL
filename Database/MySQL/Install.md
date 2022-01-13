@@ -35,5 +35,14 @@
 + 나는 위에서 설치한 Windows(local)와 CentOS 7서버의 MySQL을 연동해서 아래와 같이 연결된 것을 확인할 수 있음
    > <img src="https://user-images.githubusercontent.com/72974863/136013855-cb63fa12-76bd-4609-97dd-0e09bf8601f6.png" width="70%" hegiht="70%">
 
++ **관련 에러** `server public key has changed...` 🔥   
+
+   + 기존에 서버 연결했던 것을 삭제하고, 다시 동일한 서버 연결을 시도할 때 발생한 에러
+   + 아마 기존에 서버 연결 시 만들어진 설정파일/로그파일이 기록되었고, 그 안에 public key 관련해서 기록되어있는 상태에서, 기존 연결을 삭제하고 새로 연결을 하려고 하니까 기존에 기록된 public key랑 쌍이 안맞아서 생기는 문제 같음.
+   + 따라서, C:\Users\.ssh\known_hosts 파일을 잠시 백업해서 다른 위치에 옮겨두고, 다시 재시도하니 해결되었음 ❗❗
+   + [도움을 받았던 다른사람의 블로그](https://moon15.tistory.com/entry/MySQL-Workbench%EC%97%90%EC%84%9C-Could-not-connect-the-ssh-tunnel-%EC%97%90%EB%9F%AC-%EB%B0%9C%EC%83%9D-%EC%8B%9C-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95)   
+
+
+
 ### 참고 ✨
 + [centos7에서 설치시 안될 경우, 다른 방법으로 설치 --> 다른 사람의 블로그 참고 ❗❗](https://jjeongil.tistory.com/1278)
