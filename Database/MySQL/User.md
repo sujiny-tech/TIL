@@ -23,6 +23,13 @@
 
    + `drop user <user_id>@'%';`   
 
+## 사용자 비밀번호 수정
++ root 계정의 비밀번호 수정
+   
+   + `alter user root@localhost identified with mysql_native_password by <password>;` : root 계정 비밀번호 변경
+
+   + **주의 1.** 설정한 password 정책에 따라 password를 입력해야 함 ❗❗
+   + **주의 2.** 변경 후, 변경된 내용을 메모리에 반영하는 `flush privileges;`를 입력해야 함
 
 ## 사용자 권한 부여
 
