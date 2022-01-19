@@ -15,12 +15,13 @@
 
 + 서버 동작 중 **예상치 못한 에러 발생 시 처리 방법** 🔥
    + 서버 내에서 예상치 못한 에러가 발생하여 서버가 죽거나 멈출 때, 처리가 필요함.
-      > 에러가 발생했을 때, 서버를 초기 동작모드로 처리해줘야 할 필요가 있음 ❗
+      > 에러가 발생했을 때, 서버를 초기 동작모드로 처리(복구)해줘야 할 필요가 있음 ❗
 
    + `recover` 함수를 이용해 처리 가능   
 
       > <img src="https://user-images.githubusercontent.com/72974863/150079005-dcc88574-da5c-4dc4-8c6a-087c01ed92e9.png">   
 
+    + [stackoverflow 관련 글 참고](https://stackoverflow.com/questions/28745648/global-recover-handler-for-golang-http-panic/28746725)
 
 ## 연관
 + [fasthttp](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fasthttp/fasthttp.md)
