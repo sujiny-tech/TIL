@@ -19,6 +19,9 @@
 + Go 언어의 자료형을 C언어 함수에 입력값으로 넣으려면, 변환 필요 ❗
 + 해당 예제에서는 Go 언어의 int형을 C.int로 변환하여 입력값으로 넣음 (C.schar, C.uint, C.float, C.short, C.ushort ...)
 
-## C언어의 구조체 및 문자열 포인터 사용
+### [예제 : C언어의 구조체 및 문자열 포인터 사용하기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/c_go/cgo_example/c_memory_example.go)
++ c 함수에서 리턴받은 c언어 형식의 변수를 바로 go에서 사용할 수 없으므로, 그때 변환 필요
++ C.CString으로 만든 문자열 포인터, c언어의 malloc으로 할당한 포인터는 반드시 C.free로 메모리 해제시켜줘야함 ❗
+   + go에서 c에 관한 메모리 해제할 때, unsafe.Pointer로 변환하여 C.free함수에 넣어줌
 
 ## TODO...
