@@ -30,7 +30,7 @@
 <div markdown="1">   
  
 + [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C%2B%2B/c_cpp_extern.md)
-+ [Error ](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C++/c_error_list.md)   
++ [Error 리스트](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C++/c_error_list.md)   
   
 </div>
 </details>
