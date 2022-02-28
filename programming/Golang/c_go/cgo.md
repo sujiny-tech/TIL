@@ -27,6 +27,8 @@
 
 ## 궁금증 🤔
 + c에서 생성한 라이브러리 사용 가능여부 체크
+   > 체크 중 [stackoverflow : How to use C library in Golang(v1.3.2)](https://stackoverflow.com/questions/31868482/how-to-use-c-library-in-golangv1-3-2)
+
 + c로 만든 대용량 소스는 go에서 사용 가능한지, 가능하다면 어떻게 사용가능한지 체크
 
 
