@@ -29,6 +29,17 @@
 + c에서 생성한 라이브러리 사용 가능여부 체크
    > 체크 중 [stackoverflow : How to use C library in Golang(v1.3.2)](https://stackoverflow.com/questions/31868482/how-to-use-c-library-in-golangv1-3-2)
 
+   + 동적 라이브러리 만들기
+      + `gcc -fPIC -c <src_name>.c` : 해당 소스를 컴파일   
+
+      + `gcc -shared -o <lib_name>.so <컴파일결과파일>.o` : 컴파일된 파일을 공유 라이브러리로 변환
+      
+   + 정적 라이브러리 만들기
+   + #cgo CFLAGS로 gcc 컴파일 옵션 지정하고, #cgo LDFLAGS로 링크 옵션 지정해줘야 함
+      + -D : 매크로 설정 옵션
+      + -I : 헤더파일 경로 옵션
+      + -L : 라이브러리 경로 옵션
+      + -l : 라이브러리 링크 옵션
 + c로 만든 대용량 소스는 go에서 사용 가능한지, 가능하다면 어떻게 사용가능한지 체크
 
 
