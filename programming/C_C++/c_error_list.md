@@ -14,5 +14,11 @@
    + 해결방안2) 스택에 할당된 변수들을 전역변수 또는 힙으로 할당해주는 방법
    + 나의 경우엔, 여러 함수에서 공통으로 사용되는 변수들을 전역으로 처리해주고, 내부에서 사용하고 없애도되는 변수는 힙으로 할당해주었음 ✨
     
++ warning C4996  
+   + 'strlwr' 관련하여 the POSIC name for this item is deprecated. Insteade, use the ISO C and C++ conformant name ...
+   + 해결방안1)'#define _CRT_NONSTDC_NO_DEPRECATE' 를 추가하여 해당 경고 표시를 막는 방법   
 
+   + 해결방안2) 프로젝트 속성 페이지에서 C/C++ --> Advanced --> Disable Specific Warnings 에 해당 에러코드 기입하여 막는 방법
+   + [참고 - stackoverflow](https://stackoverflow.com/questions/46916437/itoa-the-posix-name-for-this-item-is-deprecated)
++ 
 ...
