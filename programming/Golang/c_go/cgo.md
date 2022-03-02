@@ -35,6 +35,12 @@
       + `gcc -shared -o <lib_name>.so <컴파일결과파일>.o` : 컴파일된 파일을 공유 라이브러리로 변환
       
    + 정적 라이브러리 만들기
+
+      + `gcc -c <src_name>.c` : 해당 소스 컴파일    
+
+      + `ar rc <lib_name>.a <컴파일결과파일>.o` : 컴파일된 파일을 공유 라이브러리로 변환
+      + `ranlib <lib_name>.a` : 라이브러리에 색인저장   
+
    + #cgo CFLAGS로 gcc 컴파일 옵션 지정하고, #cgo LDFLAGS로 링크 옵션 지정해줘야 함
       + -D : 매크로 설정 옵션
       + -I : 헤더파일 경로 옵션
