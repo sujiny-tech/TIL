@@ -20,5 +20,5 @@
 
    + 해결방안2) 프로젝트 속성 페이지에서 C/C++ --> Advanced --> Disable Specific Warnings 에 해당 에러코드 기입하여 막는 방법
    + [참고 - stackoverflow](https://stackoverflow.com/questions/46916437/itoa-the-posix-name-for-this-item-is-deprecated)
-+ 
+
 ...
