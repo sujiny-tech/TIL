@@ -21,4 +21,10 @@
    + 해결방안2) 프로젝트 속성 페이지에서 C/C++ --> Advanced --> Disable Specific Warnings 에 해당 에러코드 기입하여 막는 방법
    + [참고 - stackoverflow](https://stackoverflow.com/questions/46916437/itoa-the-posix-name-for-this-item-is-deprecated)
 
+
++ **32bit --> 64bit 소스호환 관련**
+
+   + [참고하면 좋을 링크](https://wiki.kldp.org/wiki.php/32bitCodeTo64bit)   
+
+
 ...
