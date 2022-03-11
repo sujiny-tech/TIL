@@ -22,8 +22,8 @@
    + [참고 - stackoverflow](https://stackoverflow.com/questions/46916437/itoa-the-posix-name-for-this-item-is-deprecated)
 
 + Error: expected '=', ',', ';', 'asm' or 'atrribute' before ~~
-   + 대부분 ';'이나 괄호 입력 하지않아서 발생
-   + 
+   + ~~ 부분이 선언이 되어있지 않아서 발생
+   + ~~ 부분이 '{' 이라면... ';'이나 괄호 입력 하지않아서 발생한 것
 
 
 + **32bit --> 64bit 소스호환 관련**
