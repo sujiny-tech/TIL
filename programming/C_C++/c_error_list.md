@@ -21,6 +21,10 @@
    + 해결방안2) 프로젝트 속성 페이지에서 C/C++ --> Advanced --> Disable Specific Warnings 에 해당 에러코드 기입하여 막는 방법
    + [참고 - stackoverflow](https://stackoverflow.com/questions/46916437/itoa-the-posix-name-for-this-item-is-deprecated)
 
++ Error: expected '=', ',', ';', 'asm' or 'atrribute' before ~~
+   + 대부분 ';'이나 괄호 입력 하지않아서 발생
+   + 
+
 
 + **32bit --> 64bit 소스호환 관련**
 
