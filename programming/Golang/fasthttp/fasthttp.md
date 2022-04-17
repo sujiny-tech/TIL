@@ -14,9 +14,24 @@
    + SetBody vs SetBodyString 성능 비교 관련 [issue #722](https://github.com/valyala/fasthttp/issues/722)
 
 
+## Do function
++ func Do(req * Request, resp * Response) error
+   + 입력받은 request를 수행하고, 해당 request에 대한 response를 받음.
+   + 입력할 reqeust에는 전체 url이 포함되어야함.
++ func DoDeadline(req * Request, resp * Response, deadline time.Time) error
+   + Do 함수의 동작 + 입력받은 deadline까지 response를 기다리는 함수.
++ func DoRedirects(req * Request, resp * Response, maxRedirectsCount int) error
+   + Do 함수의 동작 + maxRedirectsCount 리디렉션에 따라 지정된 response를 반환됨.
+   + 리디렉션 수가 지정한 maxRedirectsCount를 초과할 시, ErrTooManyRedirects(error) 반환됨.
++ func DoTimeout(req * Request, resp * Response, timeout time.Duration) error
+   + Do 함수의 동작 + 입력받은 timeout까지 response를 기다리는 함수.
+   + 해당 timeout까지 response가 반환되지 않으면 ErrTimeout(error)이 반환됨.
+
+
 + **...ing**
 
 
+# 참고
 + 관련 이슈 발생/필요 시, 참고했던 글✨
    + response body 관련 : [github valyala/fasthttp issue #411](https://github.com/valyala/fasthttp/issues/411)
    + POST method 세팅 관련 : [github valyala/fasthttp issue #202](https://github.com/valyala/fasthttp/issues/202)
