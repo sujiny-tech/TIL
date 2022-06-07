@@ -10,6 +10,8 @@
 
 + Windows
    + https://www.mingw-w64.org/ 에서 MinGW-W64 설치
+   + vscode에서 ctrl+shift+P 눌러서 C/C++ 구성 필요
+
 
 ## GO언어에서 C언어 함수 사용
 
