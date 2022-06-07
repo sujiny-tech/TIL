@@ -18,7 +18,7 @@
 
 + 테스트를 진행하는 도중에 테스트환경을 변경하여, 또다른 세팅의 테스트를 이어서 할 수 있음
    + 중간에 User 수, 1초당 접속할 User 수를 변경할 수 있음 ❗❗
-   > <img src="https://user-images.githubusercontent.com/72974863/172284547-9a6fffb1-2033-465c-997e-3dcb6b6bc28a.png" width="40%" hegiht="40%">   
+      > <img src="https://user-images.githubusercontent.com/72974863/172284547-9a6fffb1-2033-465c-997e-3dcb6b6bc28a.png" width="40%" hegiht="40%">   
 
 + 테스트 결과를 그래프로 확인할 수 있고, 다운로드 가능함
    + http://localhost:8089 접속을 통해 확인 가능   
