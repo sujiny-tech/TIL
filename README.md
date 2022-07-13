@@ -31,7 +31,9 @@
  
 + [c++에서 c 함수 사용](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C%2B%2B/c_cpp_extern.md)
 + [Error 리스트](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C++/c_error_list.md)   
-  
++ [C/C++ 성능체크:Visual Studio 활용](https://github.com/sujiny-tech/TIL/blob/main/programming/C_C%2B%2B/check_perform.md)   
+
+
 </div>
 </details>
 
