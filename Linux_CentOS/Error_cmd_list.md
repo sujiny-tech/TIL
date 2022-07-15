@@ -83,6 +83,7 @@
 
 + 방화벽 포트 열기
    + `firewall-cmd --permanent --zone=public --add-port=<원하는포트>/tcp`
+   + `firewall-cmd --reload`
    + firewalld 설치/시작/등록
       + `yum install -y firewalld`
       + `systemctl unmask firewalld`
