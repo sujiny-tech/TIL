@@ -81,6 +81,13 @@
       + -x : tar 압축해제
       + -z : gzip으로 압축 또는 해제   
 
++ 방화벽 포트 열기
+   + `firewall-cmd --permanent --zone=public --add-port=<원하는포트>/tcp`
+   + firewalld 설치/시작/등록
+      + `yum install -y firewalld`
+      + `systemctl unmask firewalld`
+      + `systemctl enable firewalld`
+      + `systemctl start firewalld`   
 
 
 ing...
