@@ -23,3 +23,13 @@
       + export PATH=$PATH:/usr/local/go/bin   
 
    + `source ~/.bash_profile` 입력해줘야 반영됨 ✨
+
+
+## 설치 시 이슈
++ go build 되지않은 경우
+   + `go : go.mod file not found in current directory  on any parent directory; see 'go help modules'`
+   + 해결 : `go env -w GO111MODULE=auto` 명령어 입력
++ go 파일 실행을 위해 관련 package 다운로드 시, git 명령어 인식안되는 경우
+   + git 설치하면 package get 가능
+   + centos7 기준, `yum install git` 명령어를 통해 git 설치
+   
