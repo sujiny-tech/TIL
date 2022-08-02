@@ -22,7 +22,9 @@
 
       > <img src="https://user-images.githubusercontent.com/72974863/141250417-a3151ce5-a169-4a2c-b580-8a7548ea34d5.png">   
 
-
+## ✨JSON 태그✨
++ 태그한 필드의 데이터가 존재하지 않는 경우, 해당 필드는 null값으로 출력됨
++ 데이터가 존재하지 않는 경우, 해당 필드를 제외하고 marshal을 수행할수있도록 ",omitempty" 추가❗❗
 
 ### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON_example.go)    
 
