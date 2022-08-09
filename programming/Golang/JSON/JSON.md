@@ -31,3 +31,4 @@
 
 # 참고
 + [go package document 💫](https://pkg.go.dev/encoding/json)
++ [JSON 형태 검증/보기좋게 정리해주는 사이트👍](https://jsonlint.com/)
