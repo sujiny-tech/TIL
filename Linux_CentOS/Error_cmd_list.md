@@ -90,6 +90,14 @@
       + `systemctl enable firewalld`
       + `systemctl start firewalld`   
 
++ 실행중인 프로세스에 관한 경로 찾기
+   + 프로세스 이름 알 때 PID 찾기
+      + `ps -ef | grep <프로세스명> | grep -v grep`
+   + 프로세스 LISTEN 포트를 알 때 PID 찾기
+      + `netstat -ntap | grep LISTEN | grep <포트번호>`
+   + PID로 프로세스 실행파일 경로 찾기
+      + `ls -al /proc/<프로세스 ID> | grep exe   
+
 
 ing...
 
