@@ -26,6 +26,8 @@
 + 태그한 필드의 데이터가 존재하지 않는 경우, 해당 필드는 null값으로 출력됨
 + 데이터가 존재하지 않는 경우, 해당 필드를 제외하고 marshal을 수행할수있도록 ",omitempty" 추가❗❗
 
+
+
 ### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON_example.go)    
 
 
@@ -33,3 +35,4 @@
 + [go package document 💫](https://pkg.go.dev/encoding/json)
 + [JSON 형태 검증/보기좋게 정리해주는 사이트👍](https://jsonlint.com/)
 + [JSON >> string 으로 변환해주는 사이트✨](https://jsontostring.com/)
++ [JSON 가이드](https://www.sohamkamani.com/golang/json/)
