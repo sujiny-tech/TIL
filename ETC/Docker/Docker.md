@@ -8,8 +8,8 @@
 
 ## 실습
 
-### [예제1: 기초 실습]
-+ 아래 "참고" 中 3번째 링크를 참고하여, 기초 실습을 학습했음
+### [예제1: 기초 실습](https://github.com/sujiny-tech/TIL/blob/main/ETC/Docker/1.%20test_docker/Dockerfile)
++ 아래 "참고" 中 3번째 링크를 참고하여, 기초 실습을 학습했음📝
 
 ### [예제2: 간단한 웹서버 배포]
 ...ing
