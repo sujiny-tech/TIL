@@ -10,6 +10,7 @@
 
 ### [예제1: 기초 실습](https://github.com/sujiny-tech/TIL/blob/main/ETC/Docker/1.%20test_docker/Dockerfile)
 + 아래 "참고" 中 3번째 링크를 참고하여, 기초 실습을 학습했음📝
++ docker build를 통해 간단하게 "Hello golang..."을 출력하는 gohello 이미지를 빌드하였음. 
 
 ### [예제2: 간단한 웹서버 배포]
 ...ing
