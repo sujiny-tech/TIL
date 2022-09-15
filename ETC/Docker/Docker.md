@@ -13,6 +13,19 @@
 + docker build를 통해 간단하게 "Hello golang..."을 출력하는 gohello 이미지를 빌드하였음. 
 
 ### [예제2: 간단한 웹서버 배포]
++ 아래 "참고" 中 4번째 링크를 참고하여, 실습하였음
+
++ image 생성 관련 명령어
+   + `docker build --tag <image_name>` : 원하는 이미지 이름을 지정하여 docker 이미지 생성하는 명령어
+   + `docker build` : default로 latest로 docker 이미지 생성됨 
+   + `docker image ls` : 현재경로에서 docker 이미지 목록
+   + `docker image tag <"source"iamge_name> <new tag-image>`: "source" 이미지로, 새로운 tag를 달은 이미지 생성하는 명령어
+   + `docker image rm <remove image_name>`: 특정 이미지 삭제하는 명령어
+
+
++ image > container로 실행하는 명령어
+   + `docker run <image_name>` : container 내부에서 특정 이미지 실행하는 명령어
+   + 
 ...ing
 
 ### 참고
