@@ -36,7 +36,6 @@
    + `docker stop <NAMES>`  : 입력한 NAMES에 해당하는 Container 중지하는 명령어 (container id를 입력해도 됨)
    + `docker ps -all` : 실행중이거나 중지된 모든 container를 출력하는 명령어, 또는 -a를 입력해도 됨
 
-...ing
 
 ### 참고
 + [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
