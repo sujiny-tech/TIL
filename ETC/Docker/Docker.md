@@ -27,7 +27,14 @@
    + `docker run --publish <host_port>:<container_port> <image_name>` : container에 대한 내부 포트를 외부포트로 노출하기 위해서는 --publish 플래그 사용해야함. 
       + 즉, host와 container 포트 연결(포트포워딩)
    + `docker run -d -p <host_port>:<container_port> <image_name>` : container를 백그라운드로 실행시키기 위해서 -d, --detach 플래그 사용해야 함.
-   + `docker ps` : 실행되고있는 container 프로세스 목록 확인하기 위함
+   + `docker run -d -p <host_port>:<container_port> --name <new_name> <image_name>` : new_name으로 container 이름 지정하는 명령어
+
+
+
++ **프로세스 확인/중지하는 명령어**
+   + `docker ps` : 실행되고있는 container 프로세스 목록 확인하기 위함, CONTAINER ID/IMAGE/COMMAND/CREATED/STATUS/PORTS/NAMES가 순차적으로 출력됨.
+   + `docker stop <NAMES>`  : 입력한 NAMES에 해당하는 Container 중지하는 명령어 (container id를 입력해도 됨)
+   + `docker ps -all` : 실행중이거나 중지된 모든 container를 출력하는 명령어, 또는 -a를 입력해도 됨
 
 ...ing
 
