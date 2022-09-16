@@ -16,7 +16,7 @@
 + 아래 "참고" 中 4번째 링크를 참고하여, 실습하였음
 
 + **image 생성 관련 명령어**
-   + `docker build --tag <image_name>` : 원하는 이미지 이름을 지정하여 docker 이미지 생성하는 명령어
+   + `docker build --tag <image_name> .` : 원하는 이미지 이름을 지정하여 docker 이미지 생성하는 명령어
    + `docker build` : default로 latest로 docker 이미지 생성됨 
    + `docker image ls` : 현재경로에서 docker 이미지 목록
    + `docker image tag <"source"iamge_name> <new tag-image>`: "source" 이미지로, 새로운 tag를 달은 이미지 생성하는 명령어
