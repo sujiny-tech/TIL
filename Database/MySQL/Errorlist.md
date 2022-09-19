@@ -10,6 +10,16 @@
    + wait_timeout을 설정했는데도 mysql 명령어를 쳐서 확인해도 적용이 안되어있는 경우, `show global variables like '%wait_timeout%';`을 입력하여 확인해볼 것 ❗❗❗
       > [도움이 된 다른사람의 블로그👍](https://velog.io/@army262/mysql-waittimeout)
 
++ "sql: no rows in result set"
+   + 특정 조건에 따라 row 조회할 때, 발생한 에러
+   + 해당 조건에 부합한 row가 존재하지 않을 때 발생함
+
++ "Error 1054 Unknown column in where clause"
+   + query를 날릴 때, sql문에 조건문 부분을 ~ 'WHERE ='+<조건변수> 로 처리 했을 때 발생하는 에러
+   + ~ WHERE = '%s'",<조건변수>로 처리해줘야 함 (즉, 변수 앞뒤로 작은 따옴표 '가 있어야 함, 작은 따옴표가 문자열의 구분 기호❗)
+   + [stackoverflow 참고](https://stackoverflow.com/questions/61848379/error-1054-unknown-column-in-where-clause)
+
+
 + **ing**
 
 
