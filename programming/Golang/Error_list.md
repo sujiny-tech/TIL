@@ -8,6 +8,7 @@
      + go env를 통해 GOROOT를 확인하고 해당 폴더 삭제 후, 재설치 진행
      + 보통 Default가 이므로 /usr/local/go 폴더일 것임
      + 따라서, `sudo rm -rf /usr/local/go`를 통해 삭제
-     + `sudo wget https://dl.google.com/go/go1.19.1.linuex-amd64.tar.gz` 명령어를 통해 지금 최신버전인 1.19.1를 설치하였음
+     + `sudo wget https://dl.google.com/go/go1.19.1.linux-amd64.tar.gz` 명령어를 통해 지금 최신버전인 1.19.1를 설치하였음
+     + `sudo tar -C /usr/local -xzf ./go.1.19.1.linux-amd64.tar.gz` 압축풀면 재설치 완료 (이전에 PATH 설정되어있을 것이므로 이부분 생략)
 
 ... ing
