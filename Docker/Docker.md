@@ -45,7 +45,7 @@
 
 
 
-## Docker를 활용한 배포 순서
+## Docker Compose를 활용한 배포 순서
 1. 각각의 container의 Dockerfile 작성(기존에 공개된 이미지를 사용하는 경우는 해당없음)
 2. docker-compose.yml 작성 후, 각각 독립된 container의 실행 정의 실시
 3. `docer-compose up` cmd를 실행하여 docker-compose.yml로 정의한 container publish함
