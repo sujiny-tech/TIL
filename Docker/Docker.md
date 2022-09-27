@@ -37,6 +37,19 @@
    + `docker ps -all` : 실행중이거나 중지된 모든 container를 출력하는 명령어, 또는 -a를 입력해도 됨
 
 
+# Docker-compose
+
++ Docker Compose : 여러 개의 Container로 구성된 서비스를 구축하고 실행 관리할 수 있는 기능임
+   + docker-compose.yml : 간단하게 말하면 도커 실행 옵션을 미리 적어둔 문서로, 프로젝트 루트에 파일을 만들고 실행설정을 적어둔 문서임. 터미널에서 도커 명령어를 통해 컨테이너를 실행하거나 죽일 수 있음
+
+
+## Docker를 활용한 배포 순서
+1. 각각의 container의 Dockerfile 작성(기존에 공개된 이미지를 사용하는 경우는 해당없음)
+2. docker-compose.yml 작성 후, 각각 독립된 container의 실행 정의 실시
+3. `docer-compose up` cmd를 실행하여 docker-compose.yml로 정의한 container publish함
+
+
+
 ### 참고
 + [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 + [Docker Golang 관련](https://docs.docker.com/language/golang/build-images/)
