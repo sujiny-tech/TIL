@@ -3,5 +3,7 @@
 
 ### 쉘에서 DockerHub 로그인
 + `docker login` 입력 후, Username/Password 입력하여 로그인
++ `docker logout` 입력하면, 해당 로그인된 계정 로그아웃
+
 
 ... ing
