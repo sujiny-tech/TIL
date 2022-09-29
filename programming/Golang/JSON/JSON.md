@@ -23,8 +23,12 @@
       > <img src="https://user-images.githubusercontent.com/72974863/141250417-a3151ce5-a169-4a2c-b580-8a7548ea34d5.png">   
 
 ## ✨JSON 태그✨
-+ 태그한 필드의 데이터가 존재하지 않는 경우, 해당 필드는 null값으로 출력됨
-+ 데이터가 존재하지 않는 경우, 해당 필드를 제외하고 marshal을 수행할수있도록 ",omitempty" 추가❗❗
++ golang 구조체의 필드에서 태그(tag)를 이용해서 메타정보를 추가하여 확장이 가능함 ❗❗❗
+   + 태그한 필드의 데이터가 존재하지 않는 경우, 해당 필드는 null값으로 출력됨
+   + 데이터가 존재하지 않는 경우, 해당 필드를 제외하고 marshal을 수행할수있도록 ",omitempty" 추가❗❗
++ golang 구조체를 여러 형태로 Marshal하는 경우가 존재할때, 멀티 태그(Multi tag)를 달아서 처리 가능함 ❗❗❗
+   + 말 그대로, json나 xml형태로 리턴해줘야하는 경우 멀티태그로 둘다 태그를 달아주면 처리 가능함
+   + ex) ``` Name string `json:"name" xml:"name"` ```
 
 
 
