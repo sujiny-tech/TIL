@@ -13,6 +13,8 @@
 + `docker logs --since <unix_timestampe> <container_name>` : 특정 container에 대한 로그를 유닉스타임으로 특정 시간이후 로그 출력 가능
 + `docker logs -f -t <container_name>` : -f 옵션으로 실시간 로그 확인가능하고, -t는 timestamp와 함께 로그 출력가능하게 함
    + `/var/lib/docker/containers/${CONTAINER_ID}/${CONTAINER_ID}-json.log` : 해당 경로로 json 형태로 docker 내부에 저장됨
++ `docker container prune` : 모든 docker container 
++ `docker rmi $(docker images -q)` : 모든 docker image 삭제
 
 
 ## Docker compose 명령어
