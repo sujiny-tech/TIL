@@ -4,6 +4,7 @@
 ## Docker 명령어
 + `docker build -f <directory_dockerfile> -t <image_name>` : image_name으로 directory_dockerfile에 있는 dockerfile로 빌드(images 생성)
 + `docker images` : docker images 조회
++ `docker tag <target_image> <new_tag_image>` : target_image를 new_tag_image로 태그 변경
 + `docker image rm <image_name>` : image_name에 해당하는 image 삭제
 + `docker container ls -a` : 모든 container 조회
 + `docker container rm <container_name>` : 특정 container 삭제
