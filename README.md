@@ -13,7 +13,7 @@
 + [TCP/IP](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/TCPIP) 
 + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/test.md)
 + [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)
-+ [time](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/time_example.go)
++ [time](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/time)
 + [JSON Encoding/Decoding](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON.md)
 + [go-sqlite3](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/go-sqlite3)
 + net/http
