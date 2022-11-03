@@ -22,6 +22,9 @@
    + Benchmark 다음에 함수이름이 오는데, Test 함수와 동일하게 함수이름의 첫 글자는 항상 대문자로 시작
 
    + Test 함수와 마찬가지로, Benchmark 함수의 파라미터에 항상 * testing.T 타입의 매개변수를 적어줌
+   
+   + benchmark를 수행하면, b.N만큼 수행하게 되는데 이는 benchmark한 함수의 성능이 균일하게(안정적으로) 나올때까지 조정되는 것임✨
+     > [참고: Go testing package](https://pkg.go.dev/testing#hdr-Benchmarks)
 
 ## **_ test.go 파일 실행 명령어** ✨
 
