@@ -14,11 +14,11 @@
    + 특정 조건에 따라 row 조회할 때, 발생한 에러
    + 해당 조건에 부합한 row가 존재하지 않을 때 발생함
 
-+ "Error 1054 Unknown column in where clause"
++ **"Error 1054 Unknown column in where clause"**
    + query를 날릴 때, sql문에 조건문 부분을 ~ 'WHERE ='+<조건변수> 로 처리 했을 때 발생하는 에러
    + ~ WHERE = '%s'",<조건변수>로 처리해줘야 함 (즉, 변수 앞뒤로 작은 따옴표 '가 있어야 함, 작은 따옴표가 문자열의 구분 기호❗)
    + [stackoverflow 참고](https://stackoverflow.com/questions/61848379/error-1054-unknown-column-in-where-clause)
-
+   + 추가 : only 숫자인 경우 문제 발생이 없으나, text로 시작된 경우 해당 에러가 발생함
 
 + **ing**
 
