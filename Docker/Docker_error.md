@@ -10,6 +10,13 @@
       + `sudo usermod -aG docker $USER`
       + `newgrp`
 
++ `iptables failed: ~ No chain/target/match by that name.`
+   + iptables에 Docker Chain 설정이 없어져서 발생하는 에러임
+   + 따라서 docker 서비스를 재실행하면 해결됨
+   + `systemctl stop docker` : docker 서비스 중단
+   + `systemctl restart docker` : docker 서비스 재실행
+
+
 ...ing
 
 
