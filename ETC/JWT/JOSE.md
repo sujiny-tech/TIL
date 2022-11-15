@@ -17,5 +17,15 @@
 ### JWK(JSON Web Key)
 + **JWE**에서 **payload encryption에 사용된 key**를 토큰화한 것 (key 자체 암호화 되어 있음)   
 
+### 관련 문서
++ [IANA JOSE 문서](https://www.iana.org/assignments/jose/jose.xhtml)
+   + JSON Web Key Parameters 관련해서 확인해보던 차에 해당 사이트를 알게 되었음.
+      + 잘 정리되어있고, 관련 Reference로 RFC 문서도 링크되어있어서 참고하기 좋음.
+      + 각 타입이 어떤 형식으로 표현되어있는지는 Reference에 적힌 문서와 해당 부분에 들어가면 잘 정의되어있음.
+
+
+
+
 ✨ [참고하기 좋은 사이트1 - jwt.io ](https://jwt.io/)
 ✨ [참고하기 좋은 블로그](https://ehdvudee.tistory.com/14)   
+✨ [JSON Web Algotirhms JWA 문서 : RFC7518](https://www.rfc-editor.org/rfc/rfc7518.html)
