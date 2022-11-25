@@ -25,4 +25,5 @@
 + `docker-compose -f docker-compose.yml pull` : 실행전 이미지/저장소 가져오기
 + `docker-compose -f docker-compose.yml up` : docker-compose.yml을 바탕으로 여러개의 container를 생성하여 시작
 + `docker-compose -f docker-compose.yml up -d` : 백그라운드로 실행
-
++ `docker-compose stop` : 현재 디렉터리에 있는 docker-compose를 통해 구동한 서비스 중지
++ `docker-compose down` : 현재 디렉터리에 있는 docker-compose를 통해 구동한 서비스 중지 & 구동시 사용된 컨테이너 제거(초기화시킴)
