@@ -20,6 +20,13 @@
    + [stackoverflow 참고](https://stackoverflow.com/questions/61848379/error-1054-unknown-column-in-where-clause)
    + 추가 : only 숫자인 경우 문제 발생이 없으나, text로 시작된 경우 해당 에러가 발생함
 
++ "sql: expected 0 arguments, got 1"
+   + golang으로 db.Exec 함수 사용해서 DELETE sql문 수행시 발생
+   + db.Exec 함수에 전달하는 sql문 형식이 잘못되서 발생한 에러로 보임
+      + ex) 에러발생o : db.Exec("delete from tbl_example where id = '%s' and name in ('sujin', 'sj', 'sujiny2222')", id)
+      + ex) 에러발생x : db.Exec("delete from tbl_example where id = (?) and name in ('sujin', 'sj', 'sujiny2222')", id)
+
+
 + **ing**
 
 
