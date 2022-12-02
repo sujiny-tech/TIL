@@ -29,9 +29,9 @@
 
 ## ErrorList
 + `error when reading request headers cannot find http request method`
-  + defer releaseResponse(resp * Response) 위치 때문에 발생하는 에러로 보임
-     + golang fasthttp package Reference 참고하니, releaseResponse 함수 선언하자마자 response에 접근불가한것으로 적혀있음
-     + 즉, releaseResponse 함수 선언 후 전달받은 Response 값에 접근 불가(Response 확인 다 완료된 다음에 해당함수 사용할 것)
+  + defer releaseResponse(resp * Response) 사용한 위치 때문에 발생하는 에러로 보임
+     + golang fasthttp package에 따르면, releaseResponse 함수 선언하자마자 response에 접근불가한 것으로 적혀있음
+     + 즉, releaseResponse 함수 뒤에는 Response 값에 접근 불가(Response 확인 다 완료된 다음에 해당함수 사용할 것)
   + golang ReleaseRequest(req * Request) 도 마찬가지임
   + [참고한 golang fasthttp package Reference 링크](https://pkg.go.dev/github.com/valyala/fasthttp#ReleaseResponse)
 
