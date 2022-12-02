@@ -27,6 +27,12 @@
    + Do 함수의 동작 + 입력받은 timeout까지 response를 기다리는 함수.
    + 해당 timeout까지 response가 반환되지 않으면 ErrTimeout(error)이 반환됨.
 
+## ErrorList
++ `error when reading request headers cannot find http request method`
+  + defer releaseResponse(resp * Response) 위치 때문에 발생하는 에러로 보임
+  + golang fasthttp package Reference 참고하니, releaseResponse 함수 선언하자마자 response에 접근불가한것으로 적혀있음
+  + 즉, releaseResponse 함수 선언 후 전달받은 Response 값에 접근 불가(Response 확인 다 완료된 다음에 해당함수 사용할 것)
+  + golang ReleaseRequest(req * Request) 도 마찬가지임
 
 + **...ing**
 
