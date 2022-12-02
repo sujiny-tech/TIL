@@ -35,6 +35,8 @@
   + golang ReleaseRequest(req * Request) 도 마찬가지임
   + [참고한 golang fasthttp package Reference 링크](https://pkg.go.dev/github.com/valyala/fasthttp#ReleaseResponse) 
   + [동일한 에러에 대한 다른 의견(stackoverflow 링크)](https://stackoverflow.com/questions/59723515/fasthttp-error-when-reading-request-headers-invalid-header-key-http-1-1-r-nus)
+  + [github golang/fasthttp issue #159](https://github.com/valyala/fasthttp/issues/159)
+
 
 + **...ing**
 
