@@ -33,7 +33,8 @@
      + golang fasthttp package에 따르면, releaseResponse 함수 선언하자마자 response에 접근불가한 것으로 적혀있음
      + 즉, releaseResponse 함수 뒤에는 Response 값에 접근 불가(Response 확인 다 완료된 다음에 해당함수 사용할 것)
   + golang ReleaseRequest(req * Request) 도 마찬가지임
-  + [참고한 golang fasthttp package Reference 링크](https://pkg.go.dev/github.com/valyala/fasthttp#ReleaseResponse)
+  + [참고한 golang fasthttp package Reference 링크](https://pkg.go.dev/github.com/valyala/fasthttp#ReleaseResponse) 
+  + [동일한 에러에 대한 다른 의견(stackoverflow 링크)](https://stackoverflow.com/questions/59723515/fasthttp-error-when-reading-request-headers-invalid-header-key-http-1-1-r-nus)
 
 + **...ing**
 
