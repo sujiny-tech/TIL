@@ -17,13 +17,13 @@
 + [JSON Encoding/Decoding](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON.md)
 + [go-sqlite3](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/go-sqlite3)
 + net/http
-+ [fasthttp](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/fasthttp)
++ [fasthttp](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/fasthttp)   
++ [HTTP/3](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/HTTP3/HTTP3.md)   
 + [BoltDB](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BoltDB/BoltDB.md)   
 + [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
 + [BIP32](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip32_example.go)   
-+ [BIP39](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip39_example.go)   
-+ Web3
-  
++ [BIP39](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip39_example.go)  
+ 
 
 </div>
 </details>
