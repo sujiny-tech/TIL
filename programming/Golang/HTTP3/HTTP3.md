@@ -3,9 +3,10 @@
 
 # Http3 특징
 + 이전버전에서는 TCP로 통신하는 반면, HTTP/3은 UDP 기반의 QUIC(Quick UDP Internet Connection)프로토콜을 사용하여 통신함
-+ 참고에서 wiki 링크의 그림(버전별 비교한 그림)참고하면 좋을 듯함
-**
-... ing**
++ 참고에서 wiki 링크의 그림(버전별 비교한 그림)참고하면 좋을 듯함   
+
+
+**... ing**
 
 
 # 참고
