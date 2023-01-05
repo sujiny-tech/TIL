@@ -11,10 +11,18 @@
    > <img src="https://user-images.githubusercontent.com/72974863/210688335-c6ce67ff-0b82-459b-9e0e-53e95f26f3ce.png" width=50% height=50%>  
 
 
-+ HTTP/3 지원
-> CDN(Content Delivery Network)서비스 관련된 부분에서 적용하고 있다고 함
-   + 구글 컨텐츠들(유튜브 포함), 페이스북 등
-   + Chrome, Edge, Firefox, Safari 등
+# HTTP/3 지원
+
+### 웹 브라우저
++ Chrome, Edge, Firefox, Safari 등
+
+### 서비스
++ CDN(Content Delivery Network)서비스 관련된 부분에서 적용하고 있다고 함
+
+### 웹서버
++ Ngnix에서 개발 중인 버전 체험가능하다고 함
++ Caddy 웹서버, LiteSpeed 웹서버
+
 
 **... ing**
 
