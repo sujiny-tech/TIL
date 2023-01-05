@@ -14,7 +14,7 @@
 + HTTP/3 지원
 > CDN(Content Delivery Network)서비스 관련된 부분에서 적용하고 있다고 함
    + 구글 컨텐츠들(유튜브 포함), 페이스북 등
-   + Chrome, Edge, crul 등
+   + Chrome, Edge, Firefox, Safari 등
 
 **... ing**
 
