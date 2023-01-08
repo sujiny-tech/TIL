@@ -9,7 +9,7 @@
 
 + HTTP/3과 이전버전의 차이(하단 '참고'의 'Wiki HTTP/3'에서의 그림)
    > <img src="https://user-images.githubusercontent.com/72974863/210688335-c6ce67ff-0b82-459b-9e0e-53e95f26f3ce.png" width=50% height=50%>  
-
+   > ✔️ HTTP/2보다 가장 큰 장점은 Zero RTT(Round Trip Time), 패킷 손실에 대한 빠른 대응, 사용자 IP가 바뀌어도 연결 유지된다는 것
 
 # HTTP/3 지원
 
@@ -22,6 +22,10 @@
 ### 웹서버
 + Ngnix에서 개발 중인 버전 체험가능하다고 함
 + Caddy 웹서버, LiteSpeed 웹서버
+
+### HTTP/3가 적용된 사이트
++ 구글(유튜브를 포함한 대부분의 서비스에 적용됨), 네이버, 페이스북(인스타그램), 넷플릭스, 줌 비디오 커뮤니케이션   
+
 
 
 **... ing**
