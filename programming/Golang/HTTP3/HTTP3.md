@@ -32,7 +32,7 @@
    + 단축키 : Ctrl + Shift + I 누르면 개발자 도구 뜸
    + 프로토콜이 안보인다면, 상태 필드에서 마우스 오른쪽 클릭하여 '프로토콜' 항목을 체크해주면 확인 가능
    + 프로토콜 값이 'h3'가 HTTP3임을 나타냄
-      + [Chrom Platform Status 웹사이트에서 h3 언급 (2022-10-18)](https://chromestatus.com/feature/5154357283651584_
+      + [Chrom Platform Status 웹사이트에서 h3 언급 (2022-10-18)](https://chromestatus.com/feature/5154357283651584)
       + 위의 링크 내에 'Specification'을 참고하면, 해당 워킹 그룹에서 작성한 스펙에서 HTTP3를 h3라고 지칭하는 것을 확인 가능함   
 
 
