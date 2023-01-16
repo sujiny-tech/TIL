@@ -23,7 +23,7 @@
 + [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
 + [BIP32](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip32_example.go)   
 + [BIP39](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip39_example.go)  
-+ [etc]() 
++ [형변환](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md) 
 
 </div>
 </details>
