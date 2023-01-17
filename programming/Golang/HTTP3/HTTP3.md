@@ -8,7 +8,8 @@
    > ✔️ UDP는 TCP보다 빠르고 네트워크 부하가 적다는 장점이 있지만, 신뢰성있는 데이터 전송을 보장하지 않음(신뢰성보다 연속성이 중요한 실시간 스트리밍과 같은 서비스에 자주 사용됨)   
 
 + HTTP/3과 이전버전의 차이(하단 '참고'의 'Wiki HTTP/3'에서의 그림)
-   > <img src="https://user-images.githubusercontent.com/72974863/210688335-c6ce67ff-0b82-459b-9e0e-53e95f26f3ce.png" width=50% height=50%>  
+   > <img src="https://user-images.githubusercontent.com/72974863/210688335-c6ce67ff-0b82-459b-9e0e-53e95f26f3ce.png" width=50% height=50%>      
+
    > ✔️ HTTP/2보다 가장 큰 장점은 Zero RTT(Round Trip Time), 패킷 손실에 대한 빠른 대응, 사용자 IP가 바뀌어도 연결 유지된다는 것
 
 # HTTP/3 지원
