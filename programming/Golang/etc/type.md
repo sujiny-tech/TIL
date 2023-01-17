@@ -38,6 +38,9 @@ int2str := strcov.Itoa(Age) //int인 값 strnig으로 변환
 
     
 
-... ing
+... ing   
+
 #### 참고
- + [GO math/big package](https://pkg.go.dev/math/big)
+ + [golang math/big package](https://pkg.go.dev/math/big)
+ + [golang strcov package](https://pkg.go.dev/strconv)   
+ 
