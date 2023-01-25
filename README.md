@@ -16,6 +16,8 @@
 + [time](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/time)
 + [JSON Encoding/Decoding](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Encoding/JSON/JSON.md)
 + [Base58](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Encoding/Base58/base58.md)
++ [Base64](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Encoding/Base64/base64_example.go)   
++ [Base64url](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Encoding/Base64url/base64url_example.go)   
 + [go-sqlite3](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/DB/go-sqlite3/go_sqlite.md)
 + [net/http](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/HTTP/nethttp/nethttp.md)   
 + [fasthttp](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/HTTP/fasthttp/fasthttp.md)   
