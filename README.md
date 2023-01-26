@@ -128,28 +128,33 @@
 </div>
 </details>
 
-## OS
+## CS
 <details>
-<summary><b>Click</b></summary>   
+<summary><b>Computer Architecture</b></summary>   
+<div markdown="1">   
+   
++ 개요
++ 컴퓨터의 구조 및 기능  
+
+</div>
+</details>
+
+<details>
+<summary><b>Operating System</b></summary>   
 <div markdown="1">   
    
 
 + [개요](https://github.com/sujiny-tech/TIL/blob/main/OS/Intro.md)
-+ 컴퓨터의 구조와 성능향상
-+ 프로세스와 스레드
-+ CPU스케줄링
-+ 프로세스 동기화
-+ 교착 상태
   
 </div>
 </details>
 
 
-## Network
 <details>
-<summary><b>Click</b></summary>   
+<summary><b>Network</b></summary>   
 <div markdown="1">   
-
+   
++ 개요
 + [MQTT(Message Queuing Telemetry Transport)](https://github.com/sujiny-tech/TIL/blob/main/Network/MQTT.md)
   
 </div>
