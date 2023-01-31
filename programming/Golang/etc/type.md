@@ -10,9 +10,20 @@ result.SetBytes(before_data) // []byte 타입인 before_data 값을 big.Int로 �
 
 ### ✔️big.Int → []byte
 ```
-convert_bytes := result.Bytes() //big.Int인 result에 대해 Bytes로 변환
+convert_bytes := result.Bytes() //big.Int인 result에 대해 Bytes로 변환 (내재된 함수 존재함)
 ```
 
+
+### ✔️String → big.Int
+```
+result := new(big.Int) // big.Int형 변수 선언
+result.SetString(before_str) // string 타입인 before_str 값을 big.Int로 변환
+```
+
+### ✔️big.Int → String
+```
+convert_str := result.String() //big.Int인 result에 대해 String으로 변환 (내재된 함수 존재함)
+```
 ### ✔️string → Int
 ```
 str2int := strcov.Atoi(Age) //string인 값 int로 변환
