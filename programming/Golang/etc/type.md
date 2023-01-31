@@ -39,7 +39,7 @@ int2str := strcov.Itoa(Age) //int인 값 strnig으로 변환
 + Java에서는 명시적 타입 변환(Explicit type conversion), 암시적 타입 변환(Implicit type conversion) 둘 다 지원
 + 반면 Go에서는 명시적 타입 변환만 지원해줌
    + 명시적 타입 변환 : 직접 사용자가 데이터 타입을 변경
-   + 암시적 타입 변환(또는 묵시적 타입 변환) : 컴파일러에 으해 자동으로 타입 변환이 이뤄지는 것
+   + 암시적 타입 변환(또는 묵시적 타입 변환) : 컴파일러에 의해 자동으로 타입 변환이 이뤄지는 것
       + C, Java에서처럼 int 데이터와 float 데이터를 덧셈한다면, 자동으로 float로 타입이 변환되는 경우
       + 표현범위가 좁은 데이터 타입에서 넓은 데이터 타입으로의 변환만 허용됨. (int는 double로 형변환 가능, double은 int로 불가능)
     
