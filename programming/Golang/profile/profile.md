@@ -9,7 +9,11 @@
 2. runtime/pprof 패키지
 3. net/http/pprof 패키지
 
-## go tool pprof 프로그램
+## 1. go tool pprof
+
+**...ing**  
+
+## 2. runtime/pprof
 + pprof 데이터를 분석하고 가공해서 웹으로 볼 수 있음
 + 먼저 사용하기 전에, graphviz를 설치해야 함
    + 설치가 안되어있으면, 프로파일 시 에러발생함 (graphviz가 설치되어있지 않다, 설치해야된다는 관련 에러메시지가 뜰 것임)
@@ -24,6 +28,7 @@
 + `go tool pprof -hhtp :9090 mem.out` : Memory 사용량 등 프로파일링(mem.out에 결과값 바이너리 파일로 생성되면서, 해당 포트에 웹사이트를 띄움)
 
 
+## 3. net/http/pprof 프로그램
 **...ing**
 
 
