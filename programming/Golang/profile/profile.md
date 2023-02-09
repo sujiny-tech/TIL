@@ -8,8 +8,10 @@
 1. go tool pprof 프로그램
 2. runtime/pprof 패키지
 3. net/http/pprof 패키지
+4. test 패키지
 
 ## 1. go tool pprof
++ 프로파일을 시각화해주는 툴로써, golang 설치시 같이 설치됨 
 
 **...ing**  
 
@@ -28,9 +30,15 @@
 + `go tool pprof -hhtp :9090 mem.out` : Memory 사용량 등 프로파일링(mem.out에 결과값 바이너리 파일로 생성되면서, 해당 포트에 웹사이트를 띄움)
 
 
-## 3. net/http/pprof 프로그램
+## 3. net/http/pprof 
 **...ing**
 
+### 4. test
++ go test 에서 단위테스트 실행 시, 프로파일링 수행도 가능함
++ `go test ./... -cpuprofile cpu.out -memprofile mem.out -blockprofile block.out -mutexprofile mutex.out`를 통해 프로파일을 얻을 수 있음
+   + `go tool pprof http :8080 cpu.out`
+  
+  
 
 # 참고
 + [go package - runtime/pprof](https://pkg.go.dev/runtime/pprof)
