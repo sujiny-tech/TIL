@@ -15,6 +15,7 @@
 + Appendln(b []byte, a ...any) []byte
    + Append 함수처럼 변수를 추가하고, 그다음에 개행문자(\n)가 들어감
 
+----------
 ### 출력
 + Errorf(format string, a ... any) error
    + error 포맷팅하는 함수
@@ -33,7 +34,9 @@
 + Fprintln(w io.Writer, a ... any) (n int, err error)
    + Fprint처럼 동일하지만, 마지막에 개행문자(\n)를 붙여서 파일에 저장하는 함수
 
+#### [👉출력(Print) 예제 - Print_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fmt/print_example.go)
 
+----------
 ### 입력
 + Scan(a ...any) (n int, err error)
    + 콘솔로 입력 받아서, 특정 변수에 저장하는 함수
@@ -60,8 +63,9 @@
 + Sscanln(str string, a ...any) (n int, err error)
    + 공백으로 구분된 문자열에서 입력을 받는 함수
 
+#### [👉입력(scanf) 예제 - Scanf_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fmt/scanf_example.go)
 
-
+----------
 
 # 참고
 + [golang fmt package](https://pkg.go.dev/fmt)
