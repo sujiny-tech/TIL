@@ -27,15 +27,16 @@
    + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/test.md)
 + [crypto](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/crypto)
    + [Ed25519](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/crypto/ed25519.md)   
-+ [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)
++ [sync](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/sync)  
+   + [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)   
 + [time](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/time)   
-+ [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
-+ [BIP32](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip32_example.go)   
-+ [BIP39](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip39_example.go) 
 + [etc](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)
    + [pointer](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/pointer.go)
-   + [형변환](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md) 
-   + [errorlist](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/Error_list.md)   
+   + [type conversion](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)   
+   + [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
+   + [BIP32](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip32_example.go)   
+   + [BIP39](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip39_example.go)
+   + [errorlist](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/Error_list.md)  
    
    
 </div>
