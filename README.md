@@ -30,6 +30,7 @@
 + [sync](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/sync)  
    + [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)   
 + [time](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/time)   
++ [profile](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/profile/profile.md)    
 + [etc](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)
    + [pointer](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/pointer.go)
    + [type conversion](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)   
