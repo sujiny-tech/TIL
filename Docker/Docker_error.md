@@ -21,5 +21,5 @@
 
 
 ### 참고
-+ [권한이슈 관련해서 참고한 다른사람 깃허브✨]([https://jjunii486.tistory.com/234](https://github.com/occidere/TIL/issues/116))
++ [권한이슈 관련해서 참고한 다른사람 깃허브✨]([https://jjunii486.tistory.com/234](https://github.com/occidere/TIL/issues/116)
 
