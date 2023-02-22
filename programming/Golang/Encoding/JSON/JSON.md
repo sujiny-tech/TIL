@@ -8,6 +8,11 @@
 ### json.Marshal/json.Unmarshal
 +  bytes, slice, string에는 Marshal/Unmarshal 함수 적합   
  
+## json.MarshalIndent
++ 들여쓰기를 추가해서 가독성을 높이고 싶을때, json.MarshlIndent 함수를 사용
+   + `func MarshalIndent(v interface{}, prefix, indent string) ([]byte, error)`   
+   + ex) ``` b, _ := json.MarshalIndent(data, "", "  ")  ```
+
 
 ## ✨ 주의할 점 ✨
 
@@ -29,7 +34,6 @@
 + golang 구조체를 여러 형태로 Marshal하는 경우가 존재할때, 멀티 태그(Multi tag)를 달아서 처리 가능함 ❗❗❗
    + 말 그대로, json나 xml형태로 리턴해줘야하는 경우 멀티태그로 둘다 태그를 달아주면 처리 가능함
    + ex) ``` Name string `json:"name" xml:"name"` ```
-
 
 
 ### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON_example.go)    
