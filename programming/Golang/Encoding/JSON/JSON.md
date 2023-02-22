@@ -8,7 +8,7 @@
 ### json.Marshal/json.Unmarshal
 +  bytes, slice, string에는 Marshal/Unmarshal 함수 적합   
  
-## json.MarshalIndent
+### json.MarshalIndent
 + 들여쓰기를 추가해서 가독성을 높이고 싶을때, json.MarshlIndent 함수를 사용
    + `func MarshalIndent(v interface{}, prefix, indent string) ([]byte, error)`   
    + ex) ``` b, _ := json.MarshalIndent(data, "", "  ")  ```
