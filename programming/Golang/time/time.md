@@ -14,13 +14,20 @@
 ## 👉형식 변환(Format)
 + go에서는 패턴 기반의 레이아웃을 통해 포맷팅/파싱을 지원함
 
-+ RFC 3339 형식으로 현재 시간
-   + `time.Now().Format("2006-01-02 15:04:05")`
-   + `time.Parse(time.RFRC3339, <변환하려는 string>)`
 
 + ISO 8601 형식으로 변환
+  > ISO 8601 : UTC(협정세계시/국제표준시), Timezone과 함께 문자열의 형태로 시간을 표현하는 방법에 관한 표준
    + `time.Now().Format("2006-01-02T15:04:05.000Z")`
+   
 
++ RFC 3339 형식으로 현재 시간
+  > ISO 8601을 인터넷 프로토콜로 어떻게 다룰건지에 대해 규정한 RFC   
+  > ISO 8601과 거의 비슷하고, 약간의 차이만 존재함
+
+
+   + `time.Now().Format("2006-01-02 15:04:05")`
+   + `time.Parse(time.RFRC3339, <변환하려는 string>)`
+   
 
 ### 참고
 + [go time package✨](https://pkg.go.dev/time)
