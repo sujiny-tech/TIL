@@ -39,6 +39,22 @@
 ### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON_example.go)    
 
 
+## 관련 에러
++ <, >, & 문자 JSON 포함 시 깨짐 현상 
+   > 참고 : [stackoverflow : How to stop json.Marshal from escaping < and >?](https://stackoverflow.com/questions/28595664/how-to-stop-json-marshal-from-escaping-and)
+   + Response에 >, < 문자 포함 시 깨져서 오는 현상 발생하였음
+   + <, > 는  "\u003c" 및 "\u003e"로 escape되어 일부 브라우저에서 html로 잘못해석하지 않도록 함
+   + &도 마찬가지로 "\u0026"으로 escape됨
+   + 따라서 **json.marshal에서 escape를 비활성화해야 됨**
+      ```
+      enc:=json.NewEncoder(<data..>)
+      enc.SetEscapeHTML(false)
+      ```
+
+
+
+
+
 # 참고
 + [go package document 💫](https://pkg.go.dev/encoding/json)
 + [JSON 형태 검증/보기좋게 정리해주는 사이트👍](https://jsonlint.com/)
