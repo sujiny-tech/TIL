@@ -24,11 +24,18 @@
          > 각 파일은 하나의 Inode를 가지고, 소유자 그룹, 권한, 파일 형태, Inode 숫자 등 파일에 관한 정보를 가짐.
          > inode에 할당된 공간은 파일 시스템 전체의 1% 정도임.
 
-
       + `for i in /*; do echo $i; find $i |wc -l; done` : / 파티션 중 어느 부분에서 inodes를 많이 사용했는지 체크
       + `for i in <해당 path>; do echo $i; find $i |wc -l; done` : 해당 path에서 어느 부분에서 inodes를 많이 사용했는지 체크 가능
    + 해당 폴더 내에서 필요없는 부분을 삭제하거나, 또는 용량이 큰 폴더로 이동시키는 방법이 있음 ❗
    
++ 일시적인 실패 : **Temporary failure in name resolution ...**
+   + 서버 세팅 : nameserver를 찾지 못해 발생하는 이슈
+   + root 계정으로 접속 후, nameserver 설정을 추가해야 함
+      + `vi /etc/resolv.conf` 입력해서 설정파일 오픈
+      + `nameserver 8.8.8.8` 추가 입력
+      + `nameserver 8.8.4.4` 추가 입력
+   + 입력 후, 저장하면 서비스 재시작 필요없이 바로 적용됨
+
 
 # 명령어 정리
 > 사용했던 것들 생각날때마다 기록하자 📝
