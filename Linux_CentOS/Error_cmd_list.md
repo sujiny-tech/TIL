@@ -28,7 +28,7 @@
       + `for i in <해당 path>; do echo $i; find $i |wc -l; done` : 해당 path에서 어느 부분에서 inodes를 많이 사용했는지 체크 가능
    + 해당 폴더 내에서 필요없는 부분을 삭제하거나, 또는 용량이 큰 폴더로 이동시키는 방법이 있음 ❗
    
-+ 일시적인 실패 : **Temporary failure in name resolution ...**
++ 갑자기 서버에서 go package 빌드 실패했던 에러 : **Temporary failure in name resolution ...**
    + 서버 세팅 : nameserver를 찾지 못해 발생하는 이슈
    + root 계정으로 접속 후, nameserver 설정을 추가해야 함
       + `vi /etc/resolv.conf` 입력해서 설정파일 오픈
