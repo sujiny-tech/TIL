@@ -8,8 +8,8 @@
 <div markdown="2">   
    
 + [fmt](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fmt/fmt.md)   
-   + [print](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/print_example.go)   
-   + [scanf](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/scanf_example.go)    
+   + [print](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fmt/print_example.go)   
+   + [scanf](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fmt/scanf_example.go)    
 + [DB](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/DB)
    + [go-sqlite3](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/DB/go-sqlite3/go_sqlite.md)   
    + [BoltDB](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/DB/BoltDB/BoltDB.md) 
@@ -31,7 +31,8 @@
    + [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/mutex)   
 + [time](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/time)   
 + [profile](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/profile/profile.md)    
-+ [etc](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)
++ [etc](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc)
+   + [Goroutine](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/goroutine.md)
    + [pointer](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/pointer.go)
    + [type conversion](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)   
    + [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
