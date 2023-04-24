@@ -2,11 +2,11 @@
 > 비동기작업을 효율적으로 처리할 수 있는 스레드 라이브러리
 
 ## 개념
-+ 스레드(Thread)는 프로그램내에서 실행 흐름을 나타냄.
-+ 고루틴(Goroutine)은 Go에서 사용하는 경량 스레드를 의미함.
++ 스레드(Thread)는 **프로그램내에서 실행 흐름**을 나타냄.
++ 고루틴(Goroutine)은 Go에서 사용하는 **경량 스레드**를 의미함.
  
 + 일반적으로 다른언어에서는 스레드 생성 시 1MB가 필요하고, 커널레벨 스레드와 연결되어 운영체제에서 스케줄링하여 돌아가는 방식인 반면,    
-  Goroutine은 2KB만 필요하고 커널에서 직접 스케줄링을 받지 않고 GO 스케줄러가 직접 스케줄링해주므로 훨씬 가볍고 빠르다고 함
+  Goroutine은 **2KB만 필요**하고 커널에서 직접 스케줄링을 받지 않고** GO 스케줄러가 직접 스케줄링해주므로 훨씬 가볍고 빠르다고 함**
   
 ## 사용 방법
 + 적용하고 싶은 함수 호출 부분 앞에 간단하게 "go"만 붙여주면 고루틴으로 실행됨
@@ -18,4 +18,3 @@
       + Mutex Lock과 사용용도는 비슷함
    
 [👉Goroutine 예제 - goroutine_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/goroutine_example.go)  
-
