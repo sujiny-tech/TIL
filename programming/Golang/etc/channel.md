@@ -35,6 +35,16 @@
 
 ## 채널 닫기
 + ```close()```함수를 사용하여 채널 닫음. 채널을 닫으면 해당 채널로 더 이상 송신 불가능 하나, 채널에 데이터가 있다면 수신은 가능함  
+   
+   
+   
+
+### [👉Select문 활용한 예제 - channel_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/channel_exmple.go)    
 
 
+
+
+
+## 참고
++ [예제로 배우는 Go 프로그래밍💫](http://golang.site/go/article/22-Go-%EC%B1%84%EB%84%90)
 
