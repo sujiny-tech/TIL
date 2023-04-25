@@ -33,6 +33,7 @@
 + [profile](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/profile/profile.md)    
 + [etc](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc)
    + [Goroutine](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/goroutine.md)
+   + [Channel](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/channel.md)   
    + [pointer](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/pointer.go)
    + [type conversion](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)   
    + [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
