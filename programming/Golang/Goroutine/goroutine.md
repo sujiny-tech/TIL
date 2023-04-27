@@ -17,4 +17,4 @@
    + 자식 스레드의 작업이 모두 다 처리될 때까지 부모 스레드를 대기시키려면, WaitGroup 라이브러리 사용하면 됨🌟
       + Mutex Lock과 사용용도는 비슷함
    
-[👉Goroutine 예제 - goroutine_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/goroutine_example.go)  
+[👉Goroutine 예제 - goroutine_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Goroutine/goroutine_example.go)   
