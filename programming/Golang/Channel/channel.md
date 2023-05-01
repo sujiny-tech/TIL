@@ -37,7 +37,9 @@
 + 여러 채널을 동시에 대기 가능함. 하나의 채널이라도 데이터를 읽어오면 해당 구문을 실행하고 select문 종료됨. 
 + 하나의 case에 대해서 처리되기 때문에, 반복해서 데이터를 처리하고 싶다면 for문도 같이 사용해야 함
 
-### [👉Select문 활용한 예제 - channel_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_exmple.go)    
+### [👉Select문 활용한 예제 1 - channel_example1.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_exmple1.go)    
+### [👉Select문 활용한 예제 2 - channel_example2.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_exmple2.go)    
+### [👉Send, Receive 예제 - channel_example3.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_exmple3.go)      
 
 
 
