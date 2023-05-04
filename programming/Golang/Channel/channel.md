@@ -48,7 +48,7 @@
 #### [👉Select문 활용한 예제 1 - channel_example1.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_example1.go)
 #### [👉Select문 활용한 예제 2 - channel_example2.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_example2.go)
 #### [👉Send, Receive 예제 - channel_example3.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_example3.go)      
-
+#### [👉range, close 예제 - channel_example4.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel_example4.go)
 
 
 
