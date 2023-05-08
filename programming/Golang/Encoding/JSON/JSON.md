@@ -36,7 +36,7 @@
 + json 태그에 "-" 값을 설정해서, marshal/unmarshal 하지 않도록 설정 가능함❗❗❗   
    + ex) ``` Name string `json:"-"` ```
 
-## 그외
+## 그 외
 + 하나를 위한 통신은 문제 없겠지만, 다양한 곳으로부터 요청/응답이 왔다갔다 할 수 있음. 따라서 필수 Json 값 외에 인터페이스를 이용해서 유연하게 처리할 수 있음.   
    + ex) API마다 response데이터가 다를 수 있으므로, 다음과 처리 할 수 있음.   
       ``` 
@@ -47,6 +47,11 @@
       ```
       
    + 응답메시지 구조가 다를 때 사용할 수 있음.
+
++ json 기본 패키지인 "encoding/json"만 사용했었는데, 그외에도 다양한 json 패키지가 있음.   
+   + [fastjson (Github링크)](https://github.com/valyala/fastjson)   
+
+
 
 
 ### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON_example.go)    
