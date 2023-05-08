@@ -19,8 +19,7 @@
    + JSON 형식이 한글자라도 다르면, 에러가 나기 때문에 형식에 맞게 잘 구현해야 함.   
 
    + Python과는 다르게, go에서 []byte 타입의 value에 대해 base64 인코딩이 적용 되어 있었음. 그래서 Python으로 송수신 시 base64 인코딩 된 값을 확인했었음.   
-  
-
+ 
       > 따라서, 언어마다 JSON 패키징 시 다른 부분이 있는지 체크 필요 ❗    
 
       > 아래 이미지 참고 (golang json document)
@@ -34,6 +33,20 @@
 + golang 구조체를 여러 형태로 Marshal하는 경우가 존재할때, 멀티 태그(Multi tag)를 달아서 처리 가능함 ❗❗❗
    + 말 그대로, json나 xml형태로 리턴해줘야하는 경우 멀티태그로 둘다 태그를 달아주면 처리 가능함
    + ex) ``` Name string `json:"name" xml:"name"` ```
++ json 태그에 "-" 값을 설정해서, marshal/unmarshal 하지 않도록 설정 가능함❗❗❗   
+   + ex) ``` Name string `json:"-"` ```
+
+## 그외
++ 하나를 위한 통신은 문제 없겠지만, 다양한 곳으로부터 요청/응답이 왔다갔다 할 수 있음. 따라서 필수 Json 값 외에 인터페이스를 이용해서 유연하게 처리할 수 있음.   
+   + ex) API마다 response데이터가 다를 수 있으므로, 다음과 처리 할 수 있음.   
+      ``` 
+       type Response struct {   
+             Code         int         `json:"code"`   
+             Msg          string      `json:"msg"`   
+             ResponseData interface{} `json:"responseData"`      
+      ```
+      
+   + 응답메시지 구조가 다를 때 사용할 수 있음.
 
 
 ### [👉간단한 샘플 코드는 여기](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/JSON/JSON_example.go)    
