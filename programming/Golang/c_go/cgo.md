@@ -11,6 +11,8 @@
 + Windows 32bit/64bit
    + https://www.mingw-w64.org/ 에서 MinGW-W64 설치
    + vscode에서 ctrl+shift+P 눌러서 C/C++ 구성 설정 필요함 ❗❗
+   + 만약, mingw-w64에서 다운로드받은 installer에서 'the file has been donwloaded incorrectly!'에러가 발생한다면❓
+      + zip파일 통째로 다운로드 받아, 압축 해제해서 C:\Program Files\mingw-w64 경로 안에 파일 넣어주면 해결됨❗❗
 
 
 ## GO언어에서 C언어 함수 사용
