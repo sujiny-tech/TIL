@@ -14,7 +14,7 @@
 + 패키지 내의 함수 호출이 안되는 경우
    + ```<func명> not exported by package <package명>```이라고 에러가 발생하는 경우임.   
    + 해결방안 : export를 하기 위해서는 함수명이 대문자로 되어야 함.
-   + [참고 : stackoverflow - 'Exported functions from another package'](https://stackoverflow.com/questions/50079815/exported-functions-from-another-package)      
+      + [참고 : stackoverflow - 'Exported functions from another package'](https://stackoverflow.com/questions/50079815/exported-functions-from-another-package)      
 
 
 
