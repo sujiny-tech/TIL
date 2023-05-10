@@ -11,4 +11,13 @@
      + `sudo wget https://dl.google.com/go/go1.19.1.linux-amd64.tar.gz` 명령어를 통해 지금 최신버전인 1.19.1를 설치하였음
      + `sudo tar -C /usr/local -xzf ./go.1.19.1.linux-amd64.tar.gz` 압축풀면 재설치 완료 (이전에 PATH 설정되어있을 것이므로 이부분 생략)
 
++ 패키지 내의 함수 호출이 안되는 경우
+   + ```<func명> not exported by package <package명>```이라고 에러가 발생하는 경우임.   
+   + 해결방안 : export를 하기 위해서는 함수명이 대문자로 되어야 함.
+   + [참고 : stackoverflow - 'Exported functions from another package'](https://stackoverflow.com/questions/50079815/exported-functions-from-another-package)      
+
+
+
+
+
 ... ing
