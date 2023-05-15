@@ -26,6 +26,10 @@
       + ex) 에러발생o : db.Exec("delete from tbl_example where id = '%s' and name in ('sujin', 'sj', 'sujiny2222')", id)
       + ex) 에러발생x : db.Exec("delete from tbl_example where id = (?) and name in ('sujin', 'sj', 'sujiny2222')", id)
 
++ **MySQL Workbench 사용 중 동작안하는 이슈 : Error while loading image**
+   + 방법1. window기준 제어판>프로그램 제거 창에서 MySQL Workbench 8.0 CE 마우스 우클릭 --> "복구" 버튼 클릭
+   + 방법2. mysql installer에서 remove 후, 재 설치(프로그램 폴더가 제대로 지워지지 않은 경우, 설치된 프로그램 폴더를 삭제해야 함)
+      > [도움이 된 stackoverflow](https://stackoverflow.com/questions/44690836/how-to-solve-mysql-error-which-occurs-while-loading-image)
 
 + **ing**
 
