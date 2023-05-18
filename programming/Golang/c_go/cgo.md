@@ -66,10 +66,13 @@
      > 의존성있는 해당 소스를 가져와서 할 순 있으나, 대체적으로 의존성있는 코드는 문제가 자주 발생됨!
 
 + `fatal error: unexpected signal during runtime execution`   
-   `[signal SIGSEGV: segmentation violation ....]`
-   + **SIGSEGV**는 포인터가 가리키는 메모리가 사용하면 안되는 곳인 메모리공간을 사용하려고할 때 발생한다고 함.
-      > 대표적으로 Null pointer derefernce(null pointer가 가리키는 데이터를 읽거나 쓰려고할 때임   
-      > 또는 할당받은 메모리 공간 이외를 건드렸을 때 발생함.
+   + `[signal SIGSEGV: segmentation violation ....]`
+      + **SIGSEGV**는 포인터가 가리키는 메모리가 사용하면 안되는 곳인 메모리공간을 사용하려고할 때 발생한다고 함.
+         > 대표적으로 Null pointer derefernce(null pointer가 가리키는 데이터를 읽거나 쓰려고)할 때임.   
+         > 또는 할당받은 메모리 공간 이외를 건드렸을 때/초기화되지 않은 pointer 사용할 때 발생함.
+   + `SIGABRT: abort`
+      + **SIGABRT**는 비정상적인 종료를 뜻함. 메모리 할당이 안된 메모리에 접근하거나 예외처리를 위해 정상적으로 사용하는 경우 발생함.
+         > 주로 malloc(메모리 할당)처리가 되지 않아서 발생함.
 
    + **사용하는 포인터에 대한 Null 체크**를 하거나, **할당해제된 포인터가 사용되는 구간이 있는지 확인 필요**함.   
    
