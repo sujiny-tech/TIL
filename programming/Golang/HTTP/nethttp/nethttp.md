@@ -2,7 +2,38 @@
 > 기본적으로 go에서 사용하는 net/http 패키지   
 
 
-## [TODO] function
+## function
++ func HandleFunc(pattern string, handler func(ResponseWriter, * Request))
+   + pattern 인자에 해당하는 값의 경로로 요청이 들어올 시, 두번째 인자의 함수를 수행할 수 있도록 매핑시켜줌
+   + 즉 url 패털과 연결할 함수를 등록시켜주는 핸들러 함수임.
+
++ func ListenAndServe(addr string, handler Handler) error 
+   + addr에 대한 HTTP 서버 시작
+
++ func Get(url string) (resp * Response, err error)
+   + 입력한 url에 대해 GET 요청(웹페이지 상 리소스 요청할 때 사용)
+   + 단점 : 헤더를 세밀하게 컨트롤 불가능. 이 경우 NewRequest 객체를 직접 생성해서 http.Client 객체를 통해 호출하면 됨.
+
++ func Post(url, contentType string, body io.Reader) (resp * Response, err error)
+   + 입력한 url에 대해 POST 요청
+   + 단점 : GET의 경우와 같은 단점을 가짐.
+
+-  -  -  -
+### type : Request
+   + func NewRequest(method, url string, body io.Reader) (* Request, error)
+      + method : "GET", "POST", "PUT", "DELETE"
+      + url : addr
+      + body : 전달할 요청데이터   
+
+
+        ```
+        //example-Get Request
+        req, err := http.NewRequest("GET", "http://example.com/test/search", nil)
+        if err!=nil {
+           panic(err)
+        }
+        defer resp.Body.Close()
+        ```
 
 + ...
 
