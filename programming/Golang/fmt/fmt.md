@@ -66,6 +66,14 @@
 #### [👉입력(scanf) 예제 - Scanf_example.go](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fmt/scanf_example.go)
 
 ----------
+### 그 외
++ WARNING : ```error strings should not end with punction or newlines(ST1005)```
+   + fmt.Errorf()함수나, fmt.Sprintf()를 사용해서 에러코드를 작성하는 경우에 발생해서 찾아봄
+   + 에러코드 메시지 문구의 **첫번째 글자가 대문자**인 경우와 **마지막에 "." 마침표**가 있는 경우 발생
+   + WARNING이므로 크리티컬 하지 않지만, 참고하면 좋을 것 같아 기록📝   
+
+
+----------
 
 # 참고
 + [golang fmt package](https://pkg.go.dev/fmt)
