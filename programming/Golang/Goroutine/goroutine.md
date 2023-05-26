@@ -21,6 +21,8 @@
 + ```func (*Once) Do(f func())``` : 함수 한번만 실행
    + Once를 통해, goroutine안에서 특정함수를 한번만 실행 가능함   
 
+   + 따라서, **복잡한 반복문 안에서 초기화할때 유용**함   
+
   ```
   //example. sync.Once
   func printhello() {
