@@ -35,6 +35,7 @@
 + [Channel](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/Channel/channel.md)
 + [etc](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc)
    + [pointer](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/pointer.go)
+   + [recover](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/recover.md)
    + [type conversion](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/etc/type.md)   
    + [Cgo](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/c_go)   
    + [BIP32](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/BIP32%2C39/bip32_example.go)   
