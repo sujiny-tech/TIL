@@ -3,12 +3,36 @@
 
 ## 동기화(Synchronization) 객체
 + Mutex : 뮤텍스, 여러 스레드에서 공유되는 데이터를 보호할 때 사용
-+ RWMutex : 읽기/쓰기 뮤텍스, 읽기와 쓰기 동작을 나눠서 lock 걸 수 있음
-+ Cond
-+ Once
-+ Pool
-+ WaitGroup
-+ Atomic
++ RWMutex : 읽기/쓰기 뮤텍스, 읽기 동작과 쓰기 동작을 나누어 Lock 걸 수 있음
++ Cond : 조건 변수, 대기하고 있는 하나의 객체를 깨우거나 여러개를 동시에 깨울 수 있음
++ Once : 특정 함수를 딱 한번만 실행할 때 사용
++ Pool : 멀티 스레드(goroutine)에서 사용할 수 있는 객체 풀, 자주 사용하는 객체를 보관했다가 다시 사용
++ WaitGroup : goroutine이 모두 끝날 때까지 기다릴 때 사용
++ Atomic : 더 이상 쪼갤 수 없는 연산(원자적 연산)을 뜻하며, 멀티 스레드(goroutine)/멀티 코어 환경에서 안전하게 값을 연산해줌
+
+### Mutex
+> 상호배제(mutual exclusion)라고도 함   
+> **여러 곳에서 공유되는 데이터를 특정 부분에서만 사용하도록 보호하기 위해 사용** 함
+
++ func (m * Mutex) Lock() : 뮤텍스 잠금, 즉 **공유되는 데이터 보호 시작할 때 사용**
++ func (m * Mutex) Unlock() : 뮤텍스 잠금 해제, 즉 **공유되는 데이터 보호를 마칠 때 사용**
+   + Lock, Unlock **짝이 안맞으면 데드락 발생**하므로, 잠그면 무조건 해제시켜줘야 함
+
+### RWMutex
+> 읽기/쓰기 뮤텍스, 읽기와 쓰기 동작을 나누어 잠금(Lock)을 걸 수 있음   
+> **쓰기 작업을 할 때, 다른 곳에서 이전데이터를 읽지 못하도록 방지**하거나,   
+> **읽기 작업을 할 때, 데이터가 변경되는 상황을 방지**할 때 사용됨   
+
++ func (rw * RWMutex) Lock() : 쓰기 뮤텍스 잠금
+   + 공유되는 데이터에 **쓰기 작업을 할 수 있도록 보장**시켜줌
+   + 즉, 다른 곳(gorutine)에서 해당하는 공유된 데이터에 대해 읽기/쓰기 작업 불가능
++ func (rw * RWMutex) Unlock() : 쓰기 뮤텍스 잠금 해제
++ func (rw * RWMutex) RLock() : 읽기 뮤텍스 잠금
+   + 읽기 작업에 한해서 **공유되는 데이터가 변경되지 않음을 보장**시켜줌
++ func (rw * RWMutex) RUnlock() : 읽기 뮤텍스 잠금 해제
+   + 마찬가지로 Lock, Unlock **짝이 안맞으면 데드락 발생**하므로 잠그면 무조건 해제시켜줘야 함
+
+
 
 ### WaitGroup
 > goroutine만 사용한다면 main이 종료될 때 대기없이 바로 같이 종료하게 됨   
@@ -22,22 +46,6 @@
 + func (wg * WaitGroup) Wait() : **모든 goroutine이 끝날 때까지 기다리도록** 하는 함수
    
 
-### Mutex
-> 상호배제(mutual exclusion)라고도 함   
-> **여러 곳에서 공유되는 데이터를 특정 부분에서만 사용하도록 보호하기 위해 사용** 함
-
-+ func (m * Mutex) Lock() : 뮤텍스 잠금, 즉 공유되는 데이터 보호 시작할 때 사용
-+ func (m * Mutex) Unlock() : 뮤텍스 잠금 해제, 즉 공유되는 데이터 보호를 마칠 때 사용
-
-### RWMutex
-> 읽기/쓰기 뮤텍스, 읽기와 쓰기 동작을 나누어서 lock을 걸 수 있음
-
-+ func (rw * RWMutex) Lock()
-+ func (rw * RWMutex) Unlock()
-+ func (rw * RWMutex) RLock()
-+ func (rw * RWMutex) RUnlock()
-
-... ing
 
 ### Once
 
