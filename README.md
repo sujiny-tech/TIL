@@ -27,7 +27,7 @@
    + [단위테스트-Test, Benchmark](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/test/test.md)
 + [crypto](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/crypto)
    + [Ed25519](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/crypto/ed25519.md)   
-+ [sync](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/sync)  
++ [sync](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/sync/sync.md)  
    + [Mutex(Lock/Unlock/RLock/RUnlock)](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/sync/mutex)   
    + [Pool](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/sync/pool)
 + [time](https://github.com/sujiny-tech/TIL/tree/main/programming/Golang/time)   
