@@ -75,8 +75,10 @@
 + func (wg * WaitGroup) Wait() : **모든 goroutine이 끝날 때까지 기다리도록** 하는 함수
   
 ### Semaphore ⭐
-> syn 라이브러리에 있는 WaitGroup도 세마포어로 goroutine의 갯수를 제한할 수 있었음.   
-> 하단 링크*의 weighted semaphore를 통해서도 goroutine의 갯수를 제한할 수 있음.   
+> 세마포어는 일반화된 뮤텍스로 Waite 및 Signal 함수로 공유자원에 대한 접근을 처리함.   
+> 바이너리 세마포어와 카운팅 세마포어도 있음.   
+> 위의 syn 라이브러리에 있는 WaitGroup도 세마포어로 goroutine의 갯수를 제한할 수 있었음.   
+> 뿐만 아니라, 하단 링크*의 weighted semaphore를 통해서도 goroutine의 갯수를 제한할 수 있음.   
 > [* golang package : semaphore](https://pkg.go.dev/golang.org/x/sync/semaphore)
 
 + func (s * Weighted) Acquire(ctx context.Context, n int64) error : 가중치 n에 해당하는 세마포어를 획득하는 함수  
