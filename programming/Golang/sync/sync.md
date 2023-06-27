@@ -74,3 +74,15 @@
    + defer() 함수와 함께 사용해서 goroutine이 끝나기 직전에 wg.Done() 함수 호출하도록 사용 가능
 + func (wg * WaitGroup) Wait() : **모든 goroutine이 끝날 때까지 기다리도록** 하는 함수
   
+### Semaphore ⭐
+> syn 라이브러리에 있는 WaitGroup도 세마포어로 goroutine의 갯수를 제한할 수 있었음.   
+> 하단 링크*의 weighted semaphore를 통해서도 goroutine의 갯수를 제한할 수 있음.   
+> [* golang package : semaphore](https://pkg.go.dev/golang.org/x/sync/semaphore)
+
++ func (s * Weighted) Acquire(ctx context.Context, n int64) error : 가중치 n에 해당하는 세마포어를 획득하는 함수  
+   + syn의 WaiteGroup Add()함수와 동일한 기능으로 보임
+   + 리소스를 사용할 수 있거나 ctx가 완료될 때까지 차단함
++ func (s * Weighted) Release(n int64) : 가중치 n으로 세마포어 해제하는 함수
+   + sync의 WaiteGroup Done()함수와 동일한 기능으로 보임
++ func (s * Weighted) TryAcquire(n int64 ) bool : 차단하지 않고 가중치가 n인 세마포어를 획득하는 함수
+  
