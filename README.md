@@ -198,7 +198,7 @@
 + 소프트웨어 방법론
 + flow chart 
 + UML(Unified Modeling Language)
-+ [JOSE(JSON Object Signing and Encryption)](https://github.com/sujiny-tech/TIL/blob/main/ETC/JWT/JOSE.md)
++ [JOSE(JSON Object Signing and Encryption)](https://github.com/sujiny-tech/TIL/blob/main/ETC/JOSE.md)
 + [JWT(JSON Web Token)](https://github.com/sujiny-tech/TIL/tree/main/ETC/JWT)
 + [JWS(JSON Web Signature) - login example using ECDSA](https://github.com/sujiny-tech/TIL/blob/main/ETC/JWT/jwt_login_example_ES256.js)   
 + [Keccak256 vs SHA3-256](https://github.com/sujiny-tech/TIL/blob/main/ETC/Keccak256_SHA3-256.md)
