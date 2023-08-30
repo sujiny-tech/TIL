@@ -37,6 +37,16 @@
    + 입력 후, 저장하면 서비스 재시작 필요없이 바로 적용됨
    + 서버 재부팅할 경우 resolv.conf의 nameserver가 127.0.0.1로 초기화되는 경우가 있다고 한다...
 
++ cgo 코드 빌드시 발생했던 에러 `/lib64/libstdc++.so.6: version 'CXXABI_1.3.8' not found`
+   + /usr/lib64/libstdc++.so.6이 가지고 있는 CXXABI의 버전을 확인
+      + `strings /usr/lib64/libstdc++.so.6 | grep CXXABI` 명령어를 통해 확인 가능
+      + 찾고 있는 CXXABI_1.3.8이 없어서 오류가 생긴걸로 보임
+   + CXXABI_1.3.8이 존재하는 라이브러리를 bashrc에 추가
+      + `strings /usr/local/lib64/libstdc++.so.6 | grep CXXABI` : CXXABI 라이브러리 조회
+      + `nano ~/.bashrc` : nano 에디터를 이용해서
+      + `export LD_LIBRARY_PATH=/usr/local/lib64/:$LD_LIBRARY_PATH` : LD_LIBRARY_PATH 설정
+        
+
 # 명령어 정리
 > 사용했던 것들 생각날때마다 기록하자 📝
 
