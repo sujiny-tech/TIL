@@ -45,7 +45,7 @@
       + `strings /usr/local/lib64/libstdc++.so.6 | grep CXXABI` : CXXABI 라이브러리 조회
       + `nano ~/.bashrc` : nano 에디터를 이용해서
       + `export LD_LIBRARY_PATH=/usr/local/lib64/:$LD_LIBRARY_PATH` : LD_LIBRARY_PATH 설정
-        
+   + [참고한 다른사람의 블로그🙏⭐](https://ryotta-205.tistory.com/63)
 
 # 명령어 정리
 > 사용했던 것들 생각날때마다 기록하자 📝
