@@ -19,7 +19,7 @@
    + 단점 : GET의 경우와 같은 단점을 가짐.
 
 
-###  type : Request
+##  type : Request
    + func NewRequest(method, url string, body io.Reader) (* Request, error)
       + method : "GET", "POST", "PUT", "DELETE"
       + url : addr
@@ -36,7 +36,7 @@
         ```
 
 
-### Case : Multi port
+## Case : Multi port
 + `http.NewServeMux()`함수와 `http.ListenAndServe`함수를 활용하면 multi port 설정 가능❗
 
   ```
