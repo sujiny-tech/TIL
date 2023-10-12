@@ -73,4 +73,4 @@
 
 ## 연관
 + [fasthttp](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fasthttp/fasthttp.md)
-+ [stackoverflow : Can I setup multi port from one web app with Go?](https://stackoverflow.com/questions/23693520/go-how-to-combine-two-or-more-http-servemux)
++ [stackoverflow : Can I setup multi port from one web app with Go?](https://stackoverflow.com/questions/28749579/can-i-setup-multi-port-from-one-web-app-with-go)
