@@ -18,8 +18,8 @@
    + 입력한 url에 대해 POST 요청
    + 단점 : GET의 경우와 같은 단점을 가짐.
 
--  -  -  -
-### type : Request
+
+###  type : Request
    + func NewRequest(method, url string, body io.Reader) (* Request, error)
       + method : "GET", "POST", "PUT", "DELETE"
       + url : addr
@@ -35,8 +35,24 @@
         defer resp.Body.Close()
         ```
 
-+ ...
 
+### Case : Multi port
++ `http.NewServeMux()`함수와 `http.ListenAndServe`함수를 활용하면 multi port 설정 가능❗
+
+  ```
+  serverMuxA := http.NewServeMux()
+  serverMuxA.HandlerFunc("/hello", helloFunc)
+
+  serverMuxB := http.NewServeMux()
+  serverMuxB.HandlerFunc("/hi", hiFunc)
+  
+  go func() {
+     http.ListenAndServe(":8081", serverMuxA)
+  }()
+
+  http.ListenAndServe(":8082", serverMuxB)
+  ```
+  
 
 ## Error
 + **net/http 관련 에러** 🔥
@@ -54,5 +70,7 @@
 
     + [stackoverflow 관련 글 참고](https://stackoverflow.com/questions/28745648/global-recover-handler-for-golang-http-panic/28746725)
 
+
 ## 연관
 + [fasthttp](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/fasthttp/fasthttp.md)
++ [stackoverflow : Can I setup multi port from one web app with Go?](https://stackoverflow.com/questions/23693520/go-how-to-combine-two-or-more-http-servemux)
