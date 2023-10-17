@@ -17,7 +17,11 @@
       + [참고 : stackoverflow - 'Exported functions from another package'](https://stackoverflow.com/questions/50079815/exported-functions-from-another-package)      
 
 
-
++ go build 시 `GOPROXY list is not the empty string, but contains no entries` 에러 발생
+   + go env 환경변수 설정 필요함
+   + 해결방안 : go.env 파일에 https://proxy.golang.org,direct 입력하여 설정하거나, export GOPROXY=direct 명령어로 설정하는 방법이 있음
+      + [참고 : github golang issues](https://github.com/golang/go/issues/61928)
+      + [참고 : stackoverflow - 'module lookup disabled by GOPROXY=off, but go env shows GOPROXY is set'](https://stackoverflow.com/questions/71023129/module-lookup-disabled-by-goproxy-off-but-go-env-shows-goproxy-is-set)
 
 
 ... ing
