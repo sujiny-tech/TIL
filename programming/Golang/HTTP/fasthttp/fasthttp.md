@@ -1,7 +1,3 @@
-# net/http
-> 기본적으로 go에서 사용하는 net/http 패키지   
-
-
 # fasthttp
 
 + 패키지 설치 : `go get github.com/valyala/fasthttp`
