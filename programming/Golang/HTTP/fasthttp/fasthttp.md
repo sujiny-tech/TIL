@@ -27,6 +27,16 @@
    + Do 함수의 동작 + 입력받은 timeout까지 response를 기다리는 함수.
    + 해당 timeout까지 response가 반환되지 않으면 ErrTimeout(error)이 반환됨.
 
+
+## fasthttp.RquestCtx
++ ctx.QueryArgs().Peek(<key>)
+   + (예) HTTP POST로 `http://localhost:8080/user?name=sujin` 과 같이 쿼리를 날릴 때, key(name)에 해당하는 value를 추출하려면?
+   + 이때 사용되는 함수로, 쿼리에 대해 특정 키 값에 대해 입력한 Value 값을 가져오는 함수
++ ctx.UserValue(<key>)
+   + (예) HTTP GET으로 `http://localhost:8080/user/{name}`과 같이 라우팅 설정된 서버에 대해
+     `http://localhost:8080/user/sujin` 으로 값을 입력할 때, 입력된 값을 추출하려면?
+   + 이때 사용되는 함수로, 사용자가 HTTP GET Method를 통해 입력한 특정 키 값에 대해 value를 가져오는 함수
+
 ## ErrorList
 + `error when reading request headers cannot find http request method`
   + defer releaseResponse(resp * Response) 사용한 위치 때문에 발생하는 에러로 보임
@@ -36,6 +46,7 @@
   + [참고한 golang fasthttp package Reference 링크](https://pkg.go.dev/github.com/valyala/fasthttp#ReleaseResponse) 
   + [동일한 에러에 대한 다른 의견(stackoverflow 링크)](https://stackoverflow.com/questions/59723515/fasthttp-error-when-reading-request-headers-invalid-header-key-http-1-1-r-nus)
   + [github golang/fasthttp issue #159](https://github.com/valyala/fasthttp/issues/159)
+
 
 
 + **...ing**
