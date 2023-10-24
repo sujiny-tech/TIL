@@ -17,6 +17,11 @@
    + `systemctl restart docker` : docker 서비스 재실행
 
 
++ `bash: /usr/local/bin/docker-compose: Permission denied`
+   +  /usr/local/bin/docker-compose 파일에 대한 실행 권한이 없어서 생기는 문제임
+   +  `sudo chmod +x /usr/local/bin/docker-compose` 명령어 입력
+ 
+  
 ...ing
 
 
