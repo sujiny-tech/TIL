@@ -22,6 +22,14 @@
    + ex) ```EXPORT 8080``` 
 + **ENV** : 환경 변수 할당할 때 사용하는 명령어  
 
+## Dockerignore 파일
+> 상세 내용은 "참고" 中 6번째 링크를 참고
++ Dockerfile로 이미지 빌드 시, 어떤 파일을 제외시킬 것인지 명시하는 파일임
+   + 하나의 도구로써, 필요한 Docker 빌드 내용을 정의하는 데에 사용됨
++ .dockerignore 파일에 포함된 파일들과 폴더들은 빌드 내용에 포함되지 않게 됨
+   + .gitignore 파일과 비슷하게, git에 작업하여 올릴 때 gitignore에 올리지 말아야할 파일과 디렉터리를 정하는 것과 같음
++ .dockerignore 파일을 잘 활용하면, 이미지 크기를 줄일 수 있으며 빌드 속도도 향상시킬 수 있음 
+
 
 ## 실습
 
@@ -68,10 +76,10 @@
 3. `docer-compose up` cmd를 실행하여 docker-compose.yml로 정의한 container publish함
 
 
-
 ### 참고
 + [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 + [Docker Golang 관련](https://docs.docker.com/language/golang/build-images/)
 + [Docker 기초실습 참고✨👍](https://nayoungs.tistory.com/entry/Docker-Docker%EC%97%90-Go-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)
 + [Docker 웹서버 배포 참고](https://docs.docker.com/language/golang/build-images/)
 + [Docker 초급자 온라인북✨👍](http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book)
++ [Dockerignore 파일 관련 다른 사람 블로그✨👍](https://djangojeng-e.github.io/2020/07/28/TodoList-32%ED%8E%B8-dockerignore-%ED%8C%8C%EC%9D%BC/)
