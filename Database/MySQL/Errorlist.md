@@ -31,6 +31,12 @@
    + 방법2. mysql installer에서 remove 후, 재 설치(프로그램 폴더가 제대로 지워지지 않은 경우, 설치된 프로그램 폴더를 삭제해야 함)
       > [도움이 된 stackoverflow](https://stackoverflow.com/questions/44690836/how-to-solve-mysql-error-which-occurs-while-loading-image)
 
++ Error : ER_TRUNCATED_WRONG_VALUE : Truncated incorrect DOUBLE value
+  + 값의 타입이 맞지 않은 경우, 구문 오류 존재 시 발생
+      + ex) 값의 타입이 INT로 정의되어있는데, VACHAR를 입력한 경우
+      + ex) update 명령어 입력 시, 콤마(,)로 묶어줘야하는 부분을 and로 묶어준 경우
+        
+
 + **ing**
 
 
