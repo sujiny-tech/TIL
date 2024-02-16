@@ -37,17 +37,53 @@
 ### 구조
 (1) 상태 변수(State Variables)   
 - 컨트랙트 저장소에 영구적으로 저장되는 변수
+- 모든 function이 접근 가능하며, function에 의해 변경된 값은 계속해서 저장됨
+     
   > ```
   > pragma solidity >=0.4.0 <0.6.0;  
   > contract SimpleStorage {  
   >  uint storedData; //State variable
   >  // ...
   > }  
+
+
+(2) 함수(Functions)
+- 컨트랙트 내에서 실행 가능한 코드(동작 관련 코드)
+- 호출은 내부/외부에서 발생할 수 있음
+
+  > ```
+  > pragma solidity >=0.4.0 <0.6.0;
+  > contract SimpleAuction {
+  > function bid()publicpayable {// Function// ...}
+  > }
+
+(3) 함수 변경자(Function Modifiers)
+- 함수를 수정하는 데에 권한을 가짐
+- 선언적 방식(declarative way)으로 함수의미 수정
+- 함수처럼 파라미터를 받을 수 있고, 바디에 특정 조건을 만족하는지 확인하는 코드가 들어감
   
+  > ```
+  > pragma solidity >=0.4.22 <0.6.0;
+  > contract Purchase {
+  >     addresspublic seller;
+  > 
+  > modifier onlySeller() {// Modifierrequire(
+  >             msg.sender == seller,
+  >             "Only seller can call this."
+  >         );
+  > _;
+  >     }
+  >
+  > function abort()publicview onlySeller {// Modifier usage//
+  > ...}
+  > }
 
-
-
+(4) 이벤트(Events)
+- EVM 로깅 기능을 갖춘 편리한 인터페이스
+- 컨트랙트가 작업 수행하는 동안 로그를 남길 수 있게 해주는 기능
+  
 ... ing
 
 ## 참고
 - [솔리디티 파고들기](https://solidity-kr.readthedocs.io/ko/latest/layout-of-source-files.html)
+- [잘 정리된 다른 사람의 블로그⭐](https://velog.io/@mae-zung/Solidity-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95)
