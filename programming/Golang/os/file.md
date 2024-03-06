@@ -7,6 +7,11 @@
 ### 1. 파일 쓰기
 + `func os.Create(name string) (*os.File, error)`
    + 입력 : 파일명
++ `func CreateTemp(dir, pattern string) (*os.File, error)`
+   + 임시파일을 생성할 때 사용   
+     > 해당하는 경로에 입력한 접두어를 갖는 임시파일을 생성하며, 프로그램 종료시 임시파일은 자동 삭제됨
+   + 입력 : 생성될 디렉토리 경로(기본값:"/tmp"), 접두어(기본값:"tmp")
+   
 
 ### 2. 파일 읽기
 + `func Open(name string) (*os.File, error)`
@@ -29,8 +34,16 @@
    + 디렉토리 계층(하위 디렉토리) 구분하여 생성할 때 사용
    + 입력 : 폴더명(ex: "test/1/2/3/"), 퍼미션모드상수(32비트 부호없는 정수형 상수값)
 
+## 이외
++ **os에 따른 분기 처리**
+   + `const GOOS string = goos.GOOS`
+      + runtime 패키지에서 정의된 GOOS 상수 이용
+      + os에 따라 darwin, freebsd, linux, windows 등을 반환함
 
+## 예제
 ### [1️⃣예제: PEM 파일 생성]()
+
+   
 
 
 ## 참고
