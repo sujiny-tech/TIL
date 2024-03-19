@@ -41,7 +41,7 @@
       + os에 따라 darwin, freebsd, linux, windows 등을 반환함
 
 ## 예제
-### [1️⃣예제: PEM 파일 생성]()
+### [1️⃣예제: PEM 파일 생성](https://github.com/sujiny-tech/TIL/blob/main/programming/Golang/os/file_example/1.%20pemfile_example.go)
 
    
 
