@@ -16,7 +16,15 @@
    > 따라서 나는 boolean 타입 대신 integer 타입인 0과 1으로 지정해서 수행하였음
 
 ### 데이터베이스 생성
+방법 1)
 + 만들어낸 .sql 파일을 DB Browser fo SQLite을 통해 데이터베이스 생성 가능   
 
 + 왼쪽 "파일" 탭에서 "가져오기" 중에서 SQL 파일로부터 데이터베이스 가져오기 클릭
    > <img src="https://user-images.githubusercontent.com/72974863/143370488-75cd090b-4127-4cea-b43a-4ebd767760ae.png" width="90%" hegith="90%">   
+
+방법 2)
++ CMD 오픈해서, `sqlite3 <생성하려고하는 데이터베이스.db>`
+   + sqlite3.exe 위치에 가서 명령어 입력 혹은 환경변수 설정
++ 데이터 베이스 생성 후, 해당 경로에서 데이터베이스 조회(목록 조회)
+   > <img width="432" alt="image" src="https://github.com/sujiny-tech/TIL/assets/72974863/abe0eaab-89c9-47ca-a51e-93cb94a55081">
+
