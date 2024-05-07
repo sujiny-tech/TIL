@@ -1,6 +1,11 @@
 # Solidity 기본 문법
 > 개인적으로 솔리디티 문법 학습 후 기록📝
 
+## 0. 환경
+- Remix IDE 활용
+   - Remix IDE : 브라우저에서 solidity를 이용하여 스마트 컨트랙트를 개발하도록 도와주는 툴
+   - https://remix.ethereum.org/ 접속하면 간단한 예제가 포함된 워크스페이스 생성됨
+  
 ## 1. Solidity 소스 파일 구성
 ### pragma 
 - 특정 컴파일러 특징을 사용할 수 있도록 하는 키워드
