@@ -43,5 +43,16 @@ $$\forall x \in L, z \in \set{0,1}^*, View_v [P(x) \leftrightarrow V(x,z)] = S(x
 |대화형 프로토콜|대화형 프로토콜|비 대화형 프로토콜|
 |결과의 정확도(안전성)가 확률에 의존함(메시지 교환을 많이 반복할수록 결과의 정확도가 높아짐) | 대화형 증명시스템과 동일하게 결과의 확률을 높이기 위해 메시지교환 多, 효율성 떨어짐|**메시지교환 필요 없음, 결과의 안전성이 확률에 의존하지 않음**|
 
+### 관련 라이브러리
++ gnark
+   + 정의
+      + go언어로 작성된 zk-SNARKs를 설계하기 위한 (즉, 회로(circuits)를 설게하기 위한) high-level API를 제공하는 라이브러리
+   + 패키지 구성요소
+      + gnark/frontend : 알고리즘을 circuit으로 세팅하기 위한 패키지 (mathematical constraints 세팅)
+      + gnark/backend : 영지식 증명 생성 및 검증
+
+
 ## 참고
 - [zk-SNARKs의 수학 이야기](https://hyun-jeong.medium.com/zk-snarks%EC%9D%98-%EC%88%98%ED%95%99-%EC%9D%B4%EC%95%BC%EA%B8%B0-1-e960e76f705a)
+- [Docu for gnark library](https://docs.gnark.consensys.io/overview)
+  
