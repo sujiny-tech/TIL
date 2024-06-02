@@ -7,7 +7,10 @@
 + `docker tag <already_created_image_name:tag> <new_image_Name>:tag` : 기존 이미지에 대해 새로운 태그 추가하여 생성
 + `docker image rm <image_name>` : image_name에 해당하는 image 삭제
 + `docker container ls -a` : 모든 container 조회
-+ `docker container rm <container_name>` : 특정 container 삭제
++ `docker container rm <container_name>` : container_name에 해당하는 특정 container 삭제
++ `docker container stop <container_name>` : container_name에 해당하는 특정 container 중지
++ `docker container start <container_name>` : (container_name에 해당하는)중지된 container를 시작
++ `docker container restart <container_name>` : (container_name에 해당하는) container를 재시작
 + `docker ps` : docker 프로세스 출력
 + `docker logs <container_name>` : 특정 container에 대한 로그 출력
 + `docker logs --tail <num> <container_name>` : 특정 container에 대한 로그 중 마지막 n번째 줄 선택하여 출력
