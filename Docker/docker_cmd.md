@@ -2,10 +2,14 @@
 > Docker로 배포된 DIF Universal Resolver를 접하면서 알게된 명령어를 정리한다📝
 
 ## Docker 명령어
+### 1. image
 + `docker build -f <directory_dockerfile> -t <image_name>` : image_name으로 directory_dockerfile에 있는 dockerfile로 빌드(images 생성)
 + `docker images` : docker images 조회
 + `docker tag <already_created_image_name:tag> <new_image_Name>:tag` : 기존 이미지에 대해 새로운 태그 추가하여 생성
 + `docker image rm <image_name>` : image_name에 해당하는 image 삭제
++ `docker rmi $(docker images -q)` : 모든 docker image 삭제
+  
+### 2. container
 + `docker container ls -a` : 모든 container 조회
 + `docker container rm <container_name>` : container_name에 해당하는 특정 container 삭제
 + `docker container stop <container_name>` : container_name에 해당하는 특정 container 중지
@@ -19,8 +23,23 @@
    + `/var/lib/docker/containers/${CONTAINER_ID}/${CONTAINER_ID}-json.log` : 해당 경로로 json 형태로 docker 내부에 저장됨
 + `docker container prune` : stop된 docker container 삭제
 + `docker stop $(docker ps -a -q) ` : 모든 container stop
-+ `docker rmi $(docker images -q)` : 모든 docker image 삭제
 
+### 3. network
++ `docker network ls` : docker network 조회
++ `docker network create <network_name>` : network_name으로 네트워크 생성
+   + 특징
+      + default 값은 "bridge" 드라이버로 세팅됨
+      + 컨테이너가 동일한 네트워크에 있는 경우, 이름으로 서로를 찾을 수 있음
+   + 옵션
+      + `docker network create --driver <driver> <network_name>` : 특정 드라이버로 설정하여 네트워크 생성
+         + bridge : 하나의 호스트 컴퓨터 내에서 여러 컨테이너들이 서로 통신할 수 있도록 해줌.
+         + host : 호스트 네트워크 환경을 그대로 사용할 수 있음. 내부 IP 할당필요없이 곧바로 사용. 즉 호스트 컴퓨터와 동일한 네트워크에서 컨테이너를 실행 시키기 위해 사용됨.
+         + overlay : 여러 docker 데몬이 서로 연결될 수 있음. 여러 호스트에 분산되어 돌아가는 컨테이너들 간에 네트워킹을 위해 사용됨.
+         + none : 아무런 네트워크를 사용하지 않는 것으로, 외부와 통신하지 않을 때 사용함.
++ `docker network insepct <network_name>` : network_name에 해당하는 네트워크의 상세 정보를 출력
++ `docker network disconnect <driver> <container_name>` : 컨테이너를 특정 네트워크로부터 연결 해제
++ `docker network rm <network_name>` : network_name에 해당하는 네트워크 삭제
++ `docker network prune` : 아무 컨테이너와 연결되지 않은 (사용하지 않는) 네트워크를 한번에 모두 삭제
 
 ## Docker compose 명령어
 
@@ -30,3 +49,7 @@
 + `docker-compose -f docker-compose.yml up -d` : 백그라운드로 실행
 + `docker-compose stop` : 현재 디렉터리에 있는 docker-compose를 통해 구동한 서비스 중지
 + `docker-compose down` : 현재 디렉터리에 있는 docker-compose를 통해 구동한 서비스 중지 & 구동시 사용된 컨테이너 제거(초기화시킴)
+
+## 참고
++ [docker network 관련 참고한 블로그💫](https://imjeongwoo.tistory.com/113)
++ [docker network 관련 참고한 블로그🌟](https://www.daleseo.com/docker-networks/)
