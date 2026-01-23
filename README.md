@@ -1,6 +1,49 @@
 # TIL : Today I Learned
 > 오늘 내가 알게된 것, 이전에 알고 있었던 것 모두 간단하게 정리하고 기록하기 👩‍💻✨
-  
+
+## AI
+
+<details>
+<summary><b>HuggingFace</b></summary>   
+<div markdown="2">   
+
+</div>
+</details>
+
+<details>
+<summary><b>AI agent</b></summary>   
+<div markdown="2">   
+
+</div>
+</details>
+
+## Spec
+
+<details>
+<summary><b>DID(Decentralized Identifiers)</b></summary>   
+<div markdown="2">
+
+</div>
+</details>
+
+
+<details>
+<summary><b>ePassport</b></summary>   
+<div markdown="2">
+
++ ePassport - ICAO Doc 9303
+
+</div>
+</details>
+
+
+<details>
+<summary><b>ETSI AdES</b></summary>   
+<div markdown="2">
+
+</div>
+</details>
+
 ## Programming
 
 <details>
